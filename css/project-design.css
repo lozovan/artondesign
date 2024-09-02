@@ -1,0 +1,92 @@
+.project-design {
+    background-color: var(--main-background-color);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.project-design h2 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h1);
+    font-weight: var(--text-font-weight);
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.project__design_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-top: 85px;
+}
+
+.project-design__info {
+    flex: 1 0 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-design__info img {
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.project-design__info-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 28, 28, 0.5);
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-design__info h4 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--mask-effect-font-size);
+    font-weight: var(--text-font-weight);
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.project-design__info p {
+    margin: 0;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--text-normal-font-weight);
+    line-height: 21px;
+    text-align: center;
+}
+
+.project-design__info:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.project-design__info:hover .project-design__info-mask {
+    opacity: 1;
+}
+
+.project-design__more a {
+    color: var(--main-text-color);
+    font-size: var(--main-text-color);
+    font-weight: var(--text-normal-font-weight);
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 41px;
+}
+
+.project-design__more a:hover {
+    color: var(--main-background);
+}

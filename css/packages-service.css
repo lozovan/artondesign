@@ -1,0 +1,35 @@
+.packages-service {
+    background-color: var(--main-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.packages-service h2 {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #ededed, 1px -1px 0 #ededed, -1px 1px 0 #ededed, -1px -1px 0 #ededed, 1px 0px 0 #ededed, 0px 1px 0 #ededed, -1px 0px 0 #ededed, 0px -1px 0 #ededed;
+}
+
+.packages-service h3 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.packages-service__main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.packages-service-main__info{
+    flex: 1 0 30%;
+}
