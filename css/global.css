@@ -31,7 +31,11 @@ html {
  font-style: normal;
  text-transform: none;
 }
-
+.devider{
+  border: 1.5px solid #ffffff;
+  width: 96%;
+  margin: auto;
+}
 
 .container {
     margin: auto;
