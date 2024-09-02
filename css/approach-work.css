@@ -27,11 +27,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    align-items: center;
     gap: 20px;
     padding-top: 55px;
 }
 
 .approach-work-info {
     flex: 1 0 30%;
+}
+.approach-work-info h4{
+    font-family: var(--main-font-family);
+    font-weight: var(--text-font-weight);
+    font-size: var(--medium-font-size);
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.approach-work-info p{
+    font-family: var(--main-font-family);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--normal-font-size);
+    text-transform: inherit;
+    line-height: 22px;
+    padding-top: 10px;
 }

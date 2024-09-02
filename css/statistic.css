@@ -16,7 +16,7 @@
 .count {
     display: inline-block;
     font-family: var(--main-font-family);
-    font-size: var(--font-size-statictic);
+    font-size: var(--font-size-h1);
     font-weight: var(--text-statictic-font-weight);
 }
 
@@ -29,5 +29,5 @@
     font-family: var(--main-font-family);
     font-weight: var(--text-normal-font-weight);
     font-size: var(--main-font-size);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }

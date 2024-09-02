@@ -17,10 +17,11 @@ html {
  --main-background: #dfa542;
  --main-text-color: #ededed; 
  --main-font-size: 18px;
+ --medium-font-size: 20px;
+ --normal-font-size: 16px;
  --header-name-font-weight: 600; 
  --font-size-h1: 60px;
  --font-size-h2: 52px;
- --font-size-statictic: 60px;
  --text-font-weight: 800;
  --text-normal-font-weight: 400;
  --text-statictic-font-weight: 700;
