@@ -18,14 +18,18 @@ html {
  --main-text-color: #ededed; 
  --main-font-size: 18px;
  --header-name-font-weight: 600; 
+ --font-size-h1: 60px;
+ --font-size-h2: 52px;
+ --font-size-statictic: 60px;
+ --text-font-weight: 800;
+ --text-normal-font-weight: 400;
+ --text-statictic-font-weight: 700;
+ --main-font-family: "Montserrat", sans-serif;
+
+ font-style: normal;
+ text-transform: none;
 }
 
-h1{
-    color: red;
-    font-size: 32px;
-    margin: 10px;
-    font-family: "Montserrat", sans-serif;
-}
 
 .container {
     margin: auto;
@@ -33,4 +37,13 @@ h1{
 }
 /* body{
     background-color: var(--background-color);
+
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
 } */
+

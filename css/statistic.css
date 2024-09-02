@@ -1,0 +1,33 @@
+.statictic__info {
+    background-color: var(--main-background);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 30px;
+}
+
+.statictic__description {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.count {
+    display: inline-block;
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-statictic);
+    font-weight: var(--text-statictic-font-weight);
+}
+
+.statictic__description-plus {
+    font-size: var(--font-size-h1);
+    font-weight: var(--text-statictic-font-weight);
+}
+
+.statictic__description-text {
+    font-family: var(--main-font-family);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--main-font-size);
+    letter-spacing: 4px;
+}
