@@ -18,36 +18,43 @@
     width: 240px;
     margin: 22px 0px;
 }
-.header__menu{
+
+.header__menu {
     display: flex;
     list-style: none;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     gap: 30px;
 }
-.header__menu-link{
+
+.header__menu-link {
     color: var(--main-text-color);
     font-size: var(--main-text-color);
     font-weight: var(--header-name-font-weight);
     text-decoration: none;
     letter-spacing: 0.08em;
 }
-.header__menu-link:hover{
+
+.header__menu-link:hover {
     color: var(--main-background);
 }
-.header__social{
+
+.header__social {
     display: flex;
 }
-.header__social-list{
+
+.header__social-list {
     display: flex;
     list-style: none;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
 }
-.header__social-link svg{
+
+.header__social-link svg {
     fill: var(--main-text-color);
 }
-.header__social-link svg:hover{
+
+.header__social-link svg:hover {
     fill: var(--main-background);
 }

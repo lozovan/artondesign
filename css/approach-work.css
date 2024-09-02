@@ -1,0 +1,37 @@
+.approach-work {
+    background-color: var(--main-text-color);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.approach-work h2 {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.approach-work h3 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, -1px -1px 0 #1c1c1c, 1px 0px 0 #1c1c1c, 0px 1px 0 #1c1c1c, -1px 0px 0 #1c1c1c, 0px -1px 0 #1c1c1c;
+}
+.approach-work__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 55px;
+}
+
+.approach-work-info {
+    flex: 1 0 30%;
+}
