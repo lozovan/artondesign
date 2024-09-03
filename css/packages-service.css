@@ -24,13 +24,66 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-.packages-service__main{
+
+.packages-service__main {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    padding-top: 40px;
 }
 
-.packages-service-main__info{
+.packages-service-main__info {
     flex: 1 0 30%;
     border: 1px solid #ededed;
+    padding: 20px;
+}
+
+.packages-service-main__info h4 {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-size: var(--mask-effect-font-size);
+    font-weight: var(--text-statictic-font-weight);
+    line-height: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.packages-service-main__info p {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 18px;
+}
+
+.packages-service__terms,
+.packages-service__price {
+    font-family: var(--main-font-family);
+    font-weight: var(--text-font-weight);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.packages-service__details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.packages-service__details a {
+    border: 1px solid #ededed;
+    padding: 5px 58px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--header-name-font-weight);
+}
+.packages-service__details a:hover {
+    color: var(--main-background-color);
+    background-color: var(--main-background);
+    border: none;
+    cursor: pointer;
 }
