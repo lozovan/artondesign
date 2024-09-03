@@ -1,7 +1,5 @@
 const tabs = document.querySelectorAll('.tab-button');
 const contents = document.querySelectorAll('.tab-content-item');
-const leftArrow = document.querySelector('.left-arrow');
-const rightArrow = document.querySelector('.right-arrow');
 let currentTabIndex = 0;
 
 function updateTabs(index) {
@@ -23,18 +21,4 @@ tabs.forEach((tab, index) => {
         currentTabIndex = index;
         updateTabs(currentTabIndex);
     });
-});
-
-leftArrow.addEventListener('click', () => {
-    if (currentTabIndex > 0) {
-        currentTabIndex--;
-        updateTabs(currentTabIndex);
-    }
-});
-
-rightArrow.addEventListener('click', () => {
-    if (currentTabIndex < tabs.length - 1) {
-        currentTabIndex++;
-        updateTabs(currentTabIndex);
-    }
 });

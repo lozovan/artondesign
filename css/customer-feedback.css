@@ -1,0 +1,102 @@
+.feedback-section {
+    background-color: var(--main-background-color);
+    padding-top: 65px;
+}
+
+.feedback-section h2 {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #ededed, 1px -1px 0 #ededed, -1px 1px 0 #ededed, -1px -1px 0 #ededed, 1px 0px 0 #ededed, 0px 1px 0 #ededed, -1px 0px 0 #ededed, 0px -1px 0 #ededed;
+}
+
+.feedback-section h3 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.feedback-slider-container {
+        /* position: relative; */
+        overflow: hidden;
+        /* display: flex; */
+        /* width: 33%; */
+        padding-top: 45px;
+        padding-bottom: 80px;    
+}
+
+.feedback-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* width: 300%; */
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.feedback-slide {
+    flex: 1 0 33%;
+    display: flex;
+    /* box-sizing: border-box; */
+    /* gap: 50px; */
+    padding: 20px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    align-items: flex-start;
+}
+
+.feedback-slide img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.feedback-slide h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feedback-location {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.feedback-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.feedback-slider-button {
+        /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.feedback-left-button {
+    left: 10px;
+}
+
+.feedback-right-button {
+    right: 10px;
+}
