@@ -3,4 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import("./statictic.js");
     import("./tabs-stages.js");
     import("./slider-customer-feedback.js");
+    import("./accordion.js");
 });
