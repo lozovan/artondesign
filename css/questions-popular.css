@@ -1,6 +1,6 @@
-.questions-popular{
+.questions-popular {
     background-color: var(--main-background-color);
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .questions-popular h2 {
@@ -23,6 +23,7 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
 .accordion-container {
     display: flex;
     gap: 10px;
@@ -33,16 +34,19 @@
 .accordion-column {
     width: 49%;
 }
+
 .accordion-item {
     border: 1px solid var(--main-text-color);
     overflow: hidden;
 }
+
 .accordion-header {
     padding: 15px;
     color: var(--main-text-color);
     cursor: pointer;
     position: relative;
 }
+
 .accordion-header p {
     font-family: var(--main-font-family);
     font-weight: var(--text-statictic-font-weight);
@@ -50,6 +54,7 @@
     line-height: 22px;
     color: var(--main-text-color);
 }
+
 .accordion-header .arrow {
     position: absolute;
     right: 20px;
@@ -69,11 +74,12 @@
 .accordion-header.active .arrow {
     transform: translateY(-50%) rotate(45deg);
 }
+
 .accordion-content {
     max-height: 0;
     overflow: hidden;
     padding: 0 15px;
-    background-color: var(--main-text-color); 
+    background-color: var(--main-text-color);
     transition: max-height 0.3s ease;
 }
 
