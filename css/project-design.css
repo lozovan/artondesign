@@ -79,6 +79,7 @@
 }
 
 .project-design__more a {
+    font-family: var(--main-font-family);
     color: var(--main-text-color);
     font-size: var(--main-text-color);
     font-weight: var(--text-normal-font-weight);
