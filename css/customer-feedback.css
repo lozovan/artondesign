@@ -25,71 +25,64 @@
 }
 
 .feedback-slider-container {
-        /* position: relative; */
-        overflow: hidden;
-        /* display: flex; */
-        /* width: 33%; */
-        padding-top: 45px;
-        padding-bottom: 80px;    
+    overflow: hidden;
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.feedback-slider-buttons {
+    text-align: end;
+    padding-bottom: 20px;
 }
 
 .feedback-slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    /* width: 300%; */
-    align-content: stretch;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    flex-direction: row;
-    gap: 7px;
+    gap: 46px;
 }
 
 .feedback-slide {
-    flex: 1 0 33%;
+    flex: 1 0 30%;
     display: flex;
-    /* box-sizing: border-box; */
-    /* gap: 50px; */
     padding: 20px;
-    background-color: #fff;
-    /* border-radius: 10px; */
-    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
-    /* flex-direction: row; */
     flex-wrap: wrap;
-    /* align-content: space-around; */
     align-items: flex-start;
+    border: 1px solid #ededed;
+    gap: 10px
 }
 
-.feedback-slide img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.feedback-namelocation img {
+    width: 80px;
+    height: 80px;
+    border-radius: 51%;
 }
 
-.feedback-slide h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
 
-.feedback-location {
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 10px;
+.feedback-location,
+.feedback-name {
+    color: var(--additional-text-color);
+    font-size: var(--main-font-size);
+    font-weight: var(--text-statictic-font-weight);
+    line-height: 22px;
+    letter-spacing: 2px;
 }
 
 .feedback-text {
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 18px;
 }
 
 .feedback-slider-button {
-        /* position: absolute; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    background-color: #000;
-    color: #fff;
+    background-color: transparent;
+    font-size: var(--font-size-h2);
+    color: var(--main-text-color);
     border: none;
-    padding: 10px;
+    padding: 0px 0px 0px 20px;
     cursor: pointer;
 }
 
@@ -99,4 +92,12 @@
 
 .feedback-right-button {
     right: 10px;
+}
+
+.feedback-namelocation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 0px 15px 0px;
 }

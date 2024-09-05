@@ -16,6 +16,7 @@ html {
  --main-background-color: #1c1c1c;
  --main-background: #dfa542;
  --main-text-color: #ededed; 
+ --additional-text-color:#ffffff;
  --main-font-size: 18px;
  --medium-font-size: 20px;
  --mask-effect-font-size: 35px;
