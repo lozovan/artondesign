@@ -28,6 +28,7 @@
 .packages-service__main {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     gap: 15px;
     padding-top: 40px;
 }
