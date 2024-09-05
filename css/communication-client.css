@@ -1,0 +1,25 @@
+.client-communication {
+    background-color: var(--main-text-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.client-communication h2 {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--mask-effect-font-size);
+    font-weight: var(--text-font-weight);
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.client-communication h3 {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--mask-effect-font-size);
+    font-weight: var(--text-font-weight);
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
