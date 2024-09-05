@@ -4,19 +4,16 @@ accordionHeaders.forEach(header => {
     header.addEventListener('click', () => {
         const content = header.nextElementSibling;
 
-        // Додаємо/забираємо клас 'active' для обертання стрілки
         header.classList.toggle('active');
 
-        // Перевіряємо, чи розгорнутий блок
         if (content.style.maxHeight) {
-            content.style.maxHeight = null; // Згортаємо блок
+            content.style.maxHeight = null; 
         } else {
-            // Згортаємо інші відкриті блоки
             document.querySelectorAll('.accordion-content').forEach(item => {
                 item.style.maxHeight = null;
-                item.previousElementSibling.classList.remove('active'); // Прибираємо клас для стрілок
+                item.previousElementSibling.classList.remove('active'); 
             });
-            content.style.maxHeight = content.scrollHeight + 'px'; // Розгортаємо блок
+            content.style.maxHeight = content.scrollHeight + 'px'; 
         }
     });
 });
