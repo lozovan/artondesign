@@ -66,14 +66,14 @@
 
 .packages-service__details {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
 
 .packages-service__details a {
     border: 1px solid #ededed;
-    padding: 5px 58px;
+    padding: 5px 43px;
     text-decoration: none;
     text-transform: capitalize;
     color: var(--main-text-color);
