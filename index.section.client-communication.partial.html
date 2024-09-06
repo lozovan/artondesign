@@ -3,10 +3,12 @@
     <h3>простір вашої мрії</h3>
     <div class="client-communication__main">
         <div class="client-communication__info">
-            <p>Я завжди на зв'язку та готова відповісти на всі Ваші питання. Ви можете зателефонувати чи написати мені у
-                будь-який зручний для Вас месенджер.</p>
-            <a href="mailto:arton.interior.design@gmail.com">arton.interior.design@gmail.com</a>
-            <a href="tel:+38(098)9908099">+38 (098) 990 80 99</a>
+            <br>
+            <p>Я завжди на зв'язку та готова відповісти на всі Ваші питання.<br> Ви можете зателефонувати чи написати
+                мені у
+                будь-який зручний для Вас месенджер.</p><br><br>
+            <a href="tel:+38(098)9908099">+38 (098) 990 80 99</a><br>
+            <a href="mailto:arton.interior.design@gmail.com">arton.interior.design@gmail.com</a><br>
             <div class="social__media">
                 <ul class="header__social-list">
                     <li class="header__social-item">
@@ -40,15 +42,14 @@
             </div>
         </div>
         <div class="client-communication__form">
-            <form id="contact-form">
-                <label for="name">Ваше ім'я</label>
-                <input type="text" id="name" name="name" required>
-                <label for="phone">Номер телефону</label>
-                <input type="tel" id="phone" name="phone" required>
-                <label for="message">Короткий опис</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <p class="privacy-notice">Ваші персональні дані захищені та не будуть передані іншим особам!</p>
-                <button type="submit">Надіслати</button>
+            <h5>Залиште Ваші контакти</h5><br>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                <input type="tel" id="phone" name="phone" placeholder="Номер телефону" required>
+                <textarea id="message" name="message" cols="27" rows="3" placeholder="Короткий опис"
+                    required></textarea>
+                <p class="privacy-notice">*Ваші персональні дані захищені та не будуть передані іншим особам!</p><br>
+                <button class="btn-send" type="submit">Надіслати</button>
             </form>
         </div>
     </div>

@@ -23,3 +23,139 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+.client-communication__main {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.client-communication__info,
+.client-communication__form {
+    flex: 1 0 46%;
+}
+
+.client-communication__info p {
+    font-family: var(--main-font-family);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.client-communication__info a {
+    text-decoration: none;
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-size: var(--normal-font-size);
+    font-weight: var(--text-statictic-font-weight);
+    line-height: 18px;
+}
+
+.client-communication__info a:hover {
+    color: var(--main-background);
+    border: none;
+    cursor: pointer;
+}
+
+.header__social-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+    text-align: start;
+}
+
+.social__media {
+    padding: 25px 0px;
+}
+
+.client-communication__form h5 {
+    font-family: var(--main-font-family);
+    font-weight: var(--text-statictic-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.contact-form {
+    display: grid;
+}
+
+input[type='text'],
+input[type='tel'] {
+    box-sizing: border-box;
+    margin: 0px 0px 14px 0px;
+    padding: 10px;
+    font-family: var(--main-font-family);
+    font-size: var(--normal-font-size);
+    font-weight: var(--text-normal-font-weight);
+    line-height: 16px;
+    border-bottom: 1px solid #1c1c1c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: var(--main-background-color);
+    background: transparent;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus {
+    outline: none !important;
+    border-color: var(--main-background);
+    box-shadow: 0 0 5px var(--main-background);
+}
+
+textarea {
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    font-family: var(--main-font-family);
+    font-size: var(--normal-font-size);
+    font-weight: var(--text-normal-font-weight);
+    line-height: 16px;
+    border-bottom: 1px solid #1c1c1c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: var(--main-background-color);
+    background: transparent;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: var(--main-background);
+    box-shadow: 0 0 5px var(--main-background);
+}
+
+.btn-send {
+    height: 40px;
+    width: 180px;
+    text-decoration: none;
+    margin: auto;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--main-font-size);
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 22px;
+}
+
+.btn-send:hover {
+    background: var(--main-background);
+    color: var(--main-background-color);
+    border: none;
+    cursor: pointer;
+}
+
+.privacy-notice {
+    font-family: var(--main-font-family);
+    font-weight: var(--text-normal-font-weight);
+    font-size: var(--normal-font-size);
+    line-height: 20px;
+}

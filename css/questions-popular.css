@@ -26,13 +26,13 @@
 
 .accordion-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
     padding-top: 30px;
 }
 
 .accordion-column {
-    width: 49%;
+    flex: 1 0 50%;
 }
 
 .accordion-item {
