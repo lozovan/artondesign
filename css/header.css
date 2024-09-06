@@ -28,6 +28,7 @@
 }
 
 .header__menu-link {
+    font-family: var(--main-font-family);
     color: var(--main-text-color);
     font-size: var(--main-text-color);
     font-weight: var(--header-name-font-weight);
