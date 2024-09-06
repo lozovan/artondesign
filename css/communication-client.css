@@ -62,7 +62,6 @@
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 50px;
     flex-wrap: nowrap;
     text-align: start;
 }
@@ -143,7 +142,6 @@ textarea:focus {
     font-size: var(--main-font-size);
     line-height: 20px;
     letter-spacing: 1px;
-    border-radius: 22px;
 }
 
 .btn-send:hover {
