@@ -1,5 +1,8 @@
 .header {
     background-color: var(--main-background-color);
+    position: fixed;
+    inset: 0% 0% auto;
+    z-index: 1;
 }
 
 .header__logo-container {
@@ -58,4 +61,48 @@
 
 .header__social-link svg:hover {
     fill: var(--main-background);
+}
+.slider__content {
+    position: absolute;
+    top: 50%;
+    left: 0; 
+    transform: translateY(-50%); 
+    text-align: left; 
+    color: #fff; 
+}
+
+.slider__content h2 {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-size: var(--font-size-h1);
+    font-weight: var(--text-font-weight);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.slider__content p {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-size: var(--main-font-size);
+    font-weight: var(--header-name-font-weight);
+    display: block;
+}
+
+.slider__content a {
+    display: inline-block;
+    background-color: var(--main-background);
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: var(--text-statictic-font-weight);
+    font-size: var(--normal-font-size);
+    text-decoration: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 18px 60px;
+    cursor: pointer;
+}
+.slider__content a:hover{
+    text-decoration: none;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
 }

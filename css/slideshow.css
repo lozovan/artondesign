@@ -1,0 +1,6 @@
+.slider {
+    position: relative;
+}
+.slider__content-main{
+    background-color: var(--main-background-color);
+}

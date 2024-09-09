@@ -43,4 +43,9 @@ html {
     padding: 0 4.5rem 0;
 }
 
+@media only screen and (max-width : 320px){
+    .container {
+        padding: 0 1rem 0;
+    }   
+}
 
