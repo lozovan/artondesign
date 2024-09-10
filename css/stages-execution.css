@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     align-content: space-around;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .stages-execution__title h2 {
@@ -60,8 +60,9 @@
     background-color: var(--main-background-color);
     color: var(--main-text-color);
     font-family: var(--main-font-family);
-    font-weight: var(--header-name-font-weight);
+    font-weight: var(--text-statictic-font-weight);
     font-size: var(--main-font-size);
+    letter-spacing: 0.1rem;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -96,7 +97,7 @@
     font-weight: var(--text-normal-font-weight);
     font-size: var(--normal-font-size);
     color: var(--main-text-color);
-    line-height: 20px;
-    letter-spacing: 1px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
     padding: 6px 0px;
 }

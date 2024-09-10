@@ -9,7 +9,7 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #ededed, 1px -1px 0 #ededed, -1px 1px 0 #ededed, -1px -1px 0 #ededed, 1px 0px 0 #ededed, 0px 1px 0 #ededed, -1px 0px 0 #ededed, 0px -1px 0 #ededed;
 }
@@ -20,13 +20,12 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 .feedback-slider-container {
     overflow: hidden;
-    padding-top: 45px;
     padding-bottom: 80px;
 }
 
@@ -40,11 +39,11 @@
     transition: transform 0.5s ease-in-out;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 46px;
+    gap: 23.5px;
 }
 
 .feedback-slide {
-    flex: 1 0 30%;
+    flex: 1 0 32%;
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
@@ -67,7 +66,7 @@
     font-size: var(--main-font-size);
     font-weight: var(--text-statictic-font-weight);
     line-height: 22px;
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
 }
 
 .feedback-text {
@@ -75,7 +74,7 @@
     color: var(--main-text-color);
     font-weight: var(--text-normal-font-weight);
     font-size: var(--normal-font-size);
-    line-height: 18px;
+    line-height: 22px;
 }
 
 .feedback-slider-button {

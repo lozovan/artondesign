@@ -9,7 +9,7 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #ededed, 1px -1px 0 #ededed, -1px 1px 0 #ededed, -1px -1px 0 #ededed, 1px 0px 0 #ededed, 0px 1px 0 #ededed, -1px 0px 0 #ededed, 0px -1px 0 #ededed;
 }
@@ -20,7 +20,7 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -49,7 +49,6 @@
 
 .accordion-header p {
     font-family: var(--main-font-family);
-    font-weight: var(--text-statictic-font-weight);
     font-size: var(--main-font-size);
     line-height: 22px;
     color: var(--main-text-color);
@@ -86,7 +85,7 @@
 .accordion-content p {
     font-family: var(--main-font-family);
     font-weight: var(--text-normal-font-weight);
-    font-size: var(--main-font-size);
+    font-size: var(--normal-font-size);
     line-height: 22px;
     color: var(--main-background-color);
     margin: 15px 0;

@@ -15,7 +15,7 @@
 
 .footer__private {
     font-family: var(--main-font-family);
-    font-weight: var(--header-name-font-weight);
+    font-weight: var(--text-statictic-font-weight);
     font-size: var(--main-font-size);
     color: var(--main-text-color);
 }
