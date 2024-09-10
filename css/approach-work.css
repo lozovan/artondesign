@@ -1,6 +1,6 @@
 .approach-work {
     background-color: var(--main-text-color);
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 70px;
 }
 
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     justify-content: start;
     gap: 20px;
-    padding-top: 55px;
+    padding-top: 40px;
 }
 
 .approach-work-info {

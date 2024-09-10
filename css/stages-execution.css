@@ -1,6 +1,6 @@
 .stages-execution {
     background-color: var(--main-text-color);
-    padding-top: 35px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -18,7 +18,7 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, -1px -1px 0 #1c1c1c, 1px 0px 0 #1c1c1c, 0px 1px 0 #1c1c1c, -1px 0px 0 #1c1c1c, 0px -1px 0 #1c1c1c;
 }
@@ -29,12 +29,12 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 .stages-execution__main {
-    padding-top: 45px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
