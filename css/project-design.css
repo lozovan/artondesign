@@ -1,6 +1,6 @@
 .project-design {
     background-color: var(--main-background-color);
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -9,8 +9,8 @@
     font-family: var(--main-font-family);
     font-size: var(--font-size-h1);
     font-weight: var(--text-font-weight);
-    line-height: 50px;
-    letter-spacing: 4px;
+    line-height: 70px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    padding-top: 85px;
+    padding-top: 20px;
 }
 
 .project-design__info {
@@ -54,8 +54,8 @@
     font-family: var(--main-font-family);
     font-size: var(--mask-effect-font-size);
     font-weight: var(--text-font-weight);
-    line-height: 42px;
-    letter-spacing: 2px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -65,7 +65,8 @@
     font-family: var(--main-font-family);
     font-size: var(--main-font-size);
     font-weight: var(--text-normal-font-weight);
-    line-height: 21px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
     text-align: center;
 }
 
@@ -81,11 +82,11 @@
 .project-design__more a {
     font-family: var(--main-font-family);
     color: var(--main-text-color);
-    font-size: var(--main-text-color);
+    font-size: var(--main-font-size);
     font-weight: var(--text-normal-font-weight);
     text-decoration: none;
-    letter-spacing: 2px;
-    line-height: 41px;
+    letter-spacing: 0.1em;
+    line-height: 22px;
 }
 
 .project-design__more a:hover {

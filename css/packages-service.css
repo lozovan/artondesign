@@ -1,6 +1,6 @@
 .packages-service {
     background-color: var(--main-background-color);
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 
@@ -10,7 +10,7 @@
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #ededed, 1px -1px 0 #ededed, -1px 1px 0 #ededed, -1px -1px 0 #ededed, 1px 0px 0 #ededed, 0px 1px 0 #ededed, -1px 0px 0 #ededed, 0px -1px 0 #ededed;
 }
@@ -18,10 +18,10 @@
 .packages-service h3 {
     color: var(--main-text-color);
     font-family: var(--main-font-family);
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h1);
     font-weight: var(--text-font-weight);
     line-height: 70px;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -37,6 +37,8 @@
     flex: 1 0 30%;
     border: 1px solid #ededed;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .packages-service-main__info h4 {
@@ -44,8 +46,8 @@
     color: var(--main-text-color);
     font-size: var(--mask-effect-font-size);
     font-weight: var(--text-statictic-font-weight);
-    line-height: 32px;
-    letter-spacing: 4px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -54,7 +56,8 @@
     color: var(--main-text-color);
     font-weight: var(--text-normal-font-weight);
     font-size: var(--normal-font-size);
-    line-height: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
 }
 
 .packages-service__terms,
@@ -74,13 +77,15 @@
 
 .packages-service__details a {
     border: 1px solid #ededed;
-    padding: 5px 43px;
+    padding: 5px 68px;
     text-decoration: none;
     text-transform: capitalize;
     color: var(--main-text-color);
     font-family: var(--main-font-family);
     font-size: var(--main-font-size);
-    font-weight: var(--header-name-font-weight);
+    font-weight: var(--text-normal-font-weight);
+    line-height: 22px;
+    letter-spacing: 0.1em;
 }
 .packages-service__details a:hover {
     color: var(--main-background-color);
