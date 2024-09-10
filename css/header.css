@@ -33,10 +33,10 @@
 .header__menu-link {
     font-family: var(--main-font-family);
     color: var(--main-text-color);
-    font-size: var(--main-text-color);
-    font-weight: var(--header-name-font-weight);
+    font-size: var(--main-font-size);
+    font-weight: var(--text-statictic-font-weight);
     text-decoration: none;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
 }
 
 .header__menu-link:hover {
@@ -77,14 +77,15 @@
     font-size: var(--font-size-h1);
     font-weight: var(--text-font-weight);
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 0.1em;
 }
 
 .slider__content p {
     font-family: var(--main-font-family);
     color: var(--main-text-color);
     font-size: var(--main-font-size);
-    font-weight: var(--header-name-font-weight);
+    font-weight: var(--text-normal-font-weight);
+    letter-spacing: 0.05em;
     display: block;
 }
 
@@ -95,6 +96,7 @@
     font-family: var(--main-font-family);
     font-weight: var(--text-statictic-font-weight);
     font-size: var(--normal-font-size);
+    letter-spacing: 0.1em;
     text-decoration: none;
     border-radius: 30px;
     text-transform: uppercase;

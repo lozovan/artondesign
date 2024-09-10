@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-evenly;
     align-content: center;
-    gap: 30px;
+    /* gap: 15px; */
 }
 
 .statictic__description {
@@ -18,9 +18,11 @@
     font-family: var(--main-font-family);
     font-size: var(--font-size-h1);
     font-weight: var(--text-statictic-font-weight);
+    /* letter-spacing: 0.1em; */
 }
 
 .statictic__description-plus {
+    /* font-family: var(--main-font-family); */
     font-size: var(--font-size-h1);
     font-weight: var(--text-statictic-font-weight);
 }
@@ -29,5 +31,5 @@
     font-family: var(--main-font-family);
     font-weight: var(--text-normal-font-weight);
     font-size: var(--main-font-size);
-    letter-spacing: 2px;
+    /* letter-spacing: 0.05em; */
 }
