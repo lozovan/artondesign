@@ -1,15 +1,15 @@
 .approach-work {
     background-color: var(--main-text-color);
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 .approach-work h2 {
     color: var(--main-background-color);
     font-family: var(--main-font-family);
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
-    line-height: 50px;
-    letter-spacing: 4px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
@@ -18,8 +18,8 @@
     font-family: var(--main-font-family);
     font-size: var(--font-size-h2);
     font-weight: var(--text-font-weight);
-    line-height: 70px;
-    letter-spacing: 4px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, -1px -1px 0 #1c1c1c, 1px 0px 0 #1c1c1c, 0px 1px 0 #1c1c1c, -1px 0px 0 #1c1c1c, 0px -1px 0 #1c1c1c;
 }
@@ -40,7 +40,7 @@
     font-size: var(--medium-font-size);
     text-transform: uppercase;
     line-height: 22px;
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
 }
 .approach-work-info p{
     font-family: var(--main-font-family);
@@ -48,5 +48,6 @@
     font-size: var(--normal-font-size);
     text-transform: inherit;
     line-height: 22px;
+    letter-spacing: 0.05em;
     padding-top: 10px;
 }
