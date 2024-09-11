@@ -54,6 +54,7 @@
 }
 
 .tab-button {
+    position: relative;
     width: 100%;
     padding: 15px;
     margin-bottom: 5px;
@@ -74,6 +75,7 @@
 .tab-button:hover {
     background-color: var(--main-background);
 }
+
 
 .tab-content {
     display: flex;
@@ -112,5 +114,35 @@
     .stages-execution__title h2{
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
+    }
+    .stages-execution__main {
+        display: block;
+    }
+
+    .tab-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tab-button::after {
+        content: '+';
+        font-size: 20px;
+    }
+
+    .tab-button.active::after {
+        content: '-';
+    }
+
+    .tab {
+        margin-bottom: 10px;
+    }
+
+    .tab-content-item {
+        padding: 10px 0;
+    }
+    .tab-content{
+        margin: auto;
+        height: auto;
     }
 }

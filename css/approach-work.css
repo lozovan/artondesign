@@ -68,6 +68,9 @@
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
+    .approach-work__main{
+        flex-direction: column;
+    }
     .approach-work-info p{
         letter-spacing: normal;
     }

@@ -8,7 +8,7 @@ menuToggle.addEventListener('click', () => {
 });
 
 document.addEventListener('click', (event) => {
-    if (!menuToggle.contains(event.target) && !navMenu.contains(event.target) && !socialIcons.contains(event.target)) {
+    if (!menuToggle.contains(event.target) && !navMenu.contains(event.target)) {
         menuToggle.classList.remove('open');
         navMenu.classList.remove('open');
     }
