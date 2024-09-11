@@ -101,11 +101,10 @@
     }
     .header__nav{
         gap: 20px;
-        margin: auto;
     }
     .menu-toggle {
         display: flex;
-        margin: auto;
+        align-self: center;
     }
 
     .header__menu {
