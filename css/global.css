@@ -28,6 +28,9 @@ html {
  --text-statictic-font-weight: 700;
  --main-font-family: "Montserrat", sans-serif;
 
+ --mobile-font-size-title: 38px;
+ --mobile-font-height-title: 45px;
+
  font-style: normal;
  text-transform: none;
 }
@@ -42,9 +45,12 @@ html {
     padding: 0 4.5rem 0;
 }
 
-@media only screen and (max-width : 320px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .container {
         padding: 0 1rem 0;
-    }   
+    } 
+    .slide_show img {
+        height: 540px;
+    }
 }
 

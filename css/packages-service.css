@@ -93,3 +93,26 @@
     border: none;
     cursor: pointer;
 }
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .packages-service__main{
+       display: block; 
+    }
+    .packages-service-main__info{
+        padding: 10px;
+    }
+    .packages-service__details{
+        gap: 5px;
+    }
+    .packages-service__details a{
+        padding: 8px 3px;
+    }
+    .packages-service h3{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .packages-service h2{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+}

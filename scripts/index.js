@@ -1,5 +1,5 @@
 document.addEventListener('partialsLoaded', () => {
-    import("./menu.js");
+    import("./mobile-menu.js");
     import("./slider.js");
     import("./statictic.js");
     import("./tabs-stages.js");

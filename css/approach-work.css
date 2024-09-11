@@ -55,3 +55,13 @@
     letter-spacing: 0.05em;
     padding-top: 10px;
 }
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .approach-work h3{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .approach-work h2{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+}
