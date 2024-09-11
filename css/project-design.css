@@ -94,8 +94,30 @@
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px){
+    .project-design {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     .project-design h2{
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
+    .project__design_main{
+        display: block;
+    }
+    .project-design__info h4{
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        letter-spacing: normal;
+
+    }
+    .project-design__info p{
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    .project-design__more{
+        text-align: center;
+    }
+
 }

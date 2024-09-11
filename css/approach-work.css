@@ -56,6 +56,10 @@
     padding-top: 10px;
 }
 @media only screen and (min-width : 320px) and (max-width : 480px){
+    .approach-work {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     .approach-work h3{
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
@@ -63,5 +67,8 @@
     .approach-work h2{
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
+    }
+    .approach-work-info p{
+        letter-spacing: normal;
     }
 }
