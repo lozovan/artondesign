@@ -59,4 +59,18 @@
     .about-us__info{
         display: block;
     }
+    .about-us__text h2{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .about-us__text p{
+     /* font-size: var(--normal-font-size); */
+     font-size: 14px;
+     letter-spacing: normal;
+     line-height: normal;
+     padding: 0;
+    }
+    .delete_mobile{
+        display: none;
+    }
 }
