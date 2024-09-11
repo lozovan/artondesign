@@ -28,8 +28,10 @@ html {
  --text-statictic-font-weight: 700;
  --main-font-family: "Montserrat", sans-serif;
 
- --mobile-font-size-title: 38px;
- --mobile-font-height-title: 45px;
+
+ --mobile-small-size: 14px;
+ --mobile-font-size-title: 36px;
+ --mobile-font-height-title: 42px;
 
  font-style: normal;
  text-transform: none;
@@ -49,8 +51,5 @@ html {
     .container {
         padding: 0 1rem 0;
     } 
-    .slide_show img {
-        height: 540px;
-    }
 }
 
