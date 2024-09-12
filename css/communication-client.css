@@ -187,15 +187,23 @@ textarea:focus {
         flex-wrap: wrap;
         gap: 20px;
     }
-    .client-communication h3{
-        font-size: var(--mask-effect-font-size);
-        line-height: 38px;
+    .client-communication__info{
         text-align: center;
     }
-    .client-communication h2{
-        font-size: var(--mask-effect-font-size);
-        line-height: 38px;
+    .client-communication h3{
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
         text-align: center;
+        letter-spacing: normal;
+    }
+    .client-communication h2{
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        text-align: center;
+        letter-spacing: normal;
+    }
+    .client-communication__info p{
+        letter-spacing: normal;
     }
     .client-communication__form h5 {
         text-align: center;
