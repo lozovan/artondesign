@@ -107,4 +107,8 @@
         font-size: var(--normal-font-size);
         line-height: var(--mobile-font-height-acordion);
     }
+    .questions-popular{
+        padding-bottom: 40px;
+    }
+    
 }

@@ -150,6 +150,7 @@ ul.tabs li.active {
         color: var(--main-text-color);
         font-size: var(--medium-font-size);
         line-height: var(--mobile-font-height-title);
+        border: 1px solid var(--main-text-color);
         text-align: center;
         padding: 5px 10px;
         display: block;

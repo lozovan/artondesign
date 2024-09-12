@@ -185,13 +185,29 @@ textarea:focus {
     }   
     .client-communication__main{
         flex-wrap: wrap;
+        gap: 20px;
     }
     .client-communication h3{
         font-size: var(--mask-effect-font-size);
         line-height: 38px;
+        text-align: center;
     }
     .client-communication h2{
         font-size: var(--mask-effect-font-size);
         line-height: 38px;
+        text-align: center;
     }
+    .client-communication__form h5 {
+        text-align: center;
+    }
+    .privacy-notice{
+        text-align: center;
+    }
+    .communication__social {
+        justify-content: center;
+    }
+    .communication__social-list{
+        gap: 15px;
+    }
+
 }
