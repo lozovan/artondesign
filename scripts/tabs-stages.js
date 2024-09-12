@@ -1,24 +1,40 @@
-const tabs = document.querySelectorAll('.tab-button');
-const contents = document.querySelectorAll('.tab-content-item');
-let currentTabIndex = 0;
+ // tabbed content
+    // http://www.entheosweb.com/tutorials/css/tabs.asp
+    $(".tab_content").hide();
+    $(".tab_content:first").show();
 
-function updateTabs(index) {
-    if (index < 0 || index >= tabs.length) {
-        console.error('no index:', index);
-        return;
-    }
+  /* if in tab mode */
+    $("ul.tabs li").click(function() {
+		
+      $(".tab_content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();		
+		
+      $("ul.tabs li").removeClass("active");
+      $(this).addClass("active");
 
-    tabs.forEach(item => item.classList.remove('active'));
-    contents.forEach(content => content.classList.remove('active'));
-
-    tabs[index].classList.add('active');
-    contents[index].classList.add('active');
-}
-
-// Додавання подій для вкладок
-tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => {
-        currentTabIndex = index;
-        updateTabs(currentTabIndex);
+	  $(".tab_drawer_heading").removeClass("d_active");
+	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+	  
+    /*$(".tabs").css("margin-top", function(){ 
+       return ($(".tab_container").outerHeight() - $(".tabs").outerHeight() ) / 2;
+    });*/
     });
-});
+    $(".tab_container").css("min-height", function(){ 
+      return $(".tabs").outerHeight() + 50;
+    });
+	/* if in drawer mode */
+	$(".tab_drawer_heading").click(function() {
+      
+      $(".tab_content").hide();
+      var d_activeTab = $(this).attr("rel"); 
+      $("#"+d_activeTab).fadeIn();
+	  
+	  $(".tab_drawer_heading").removeClass("d_active");
+      $(this).addClass("d_active");
+	  
+	  $("ul.tabs li").removeClass("active");
+	  $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+	
+	

@@ -33,7 +33,7 @@
     text-transform: uppercase;
 }
 
-.stages-execution__main {
+/* .stages-execution__main {
     padding-top: 40px;
     display: flex;
     justify-content: center;
@@ -101,11 +101,92 @@
     color: var(--main-text-color);
     line-height: 22px;
     letter-spacing: 0.05em;
-    padding: 6px 0px;
+    padding: 6px 0px; 
+}*/
+ul.tabs {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 25px 0 0;
+    padding: 0;
+    width: 23%;
+    min-width: 175px;
+    list-style: none;
+    transition: all .3s ease;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+ul.tabs li {
+    margin: 0;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 31px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    background-color: #666;
+    background: rgb(96,0,38);
+    background: -moz-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+    background: -o-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+    background: -ms-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+    background: linear-gradient(to bottom, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#600026', endColorstr='#c60943', GradientType=0);
+    transition: all .3s ease;
+}
+
+ul.tabs li:hover {
+    background: rgb(174,0,70);
+    background: -moz-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+    background: -o-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+    background: -ms-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+    background: linear-gradient(to bottom, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae0046', endColorstr='#fb0f56', GradientType=0);
+    color: white;
+    transition: all .3s ease;
+}
+
+ul.tabs li.active {
+    background: rgb(76,0,30);
+    background: -moz-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+    background: -o-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+    background: -ms-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+    background: linear-gradient(to bottom, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c001e', endColorstr='#9f0735', GradientType=0);
+    color: #dddddd;
+    transition: all .3s ease;
+}
+
+.tab_container {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: -2%;
+    width: 70%;
+    min-width: 10px;
+    text-align: left;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tab_content {
+    padding: 20px;
+    display: none; /* Сховати контент за замовчуванням */
+}
+
+.tab_drawer_heading { 
+    display: none; 
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+    .stages-execution{
+        padding-top: 40px;
+    }
     .stages-execution__main{
         display: block;
+        padding-top: 20px;
     }
     .stages-execution__title h3{
         font-size: var(--mobile-font-size-title);
@@ -115,34 +196,76 @@
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    .stages-execution__main {
+    /* .stages-execution__main {
         display: block;
     }
-
-    .tab-button {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .tab-button::after {
-        content: '+';
-        font-size: 20px;
-    }
-
-    .tab-button.active::after {
-        content: '-';
-    }
-
-    .tab {
-        margin-bottom: 10px;
-    }
-
-    .tab-content-item {
-        padding: 10px 0;
+    .stages-execution__title{
+        gap: 0px;
     }
     .tab-content{
         margin: auto;
         height: auto;
+    } */
+    ul.tabs {
+        display: none; /* Сховати вкладки на мобільних пристроях */
+    }
+
+    .tab_container {
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+        border-top: none;
+        border-radius: 0;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .tab_drawer_heading {
+        background-color: #ccc;
+        background: rgb(96,0,38);
+        background: -moz-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+        background: -o-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+        background: -ms-linear-gradient(top, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+        background: linear-gradient(to bottom, rgba(96,0,38,1) 0%, rgba(198,9,67,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#600026', endColorstr='#c60943', GradientType=0);
+        color: #fff;
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-align: center;
+    }
+
+    .tab_drawer_heading:hover {
+        background: rgb(174,0,70);
+        background: -moz-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+        background: -o-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+        background: -ms-linear-gradient(top, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+        background: linear-gradient(to bottom, rgba(174,0,70,1) 0%, rgba(251,15,86,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae0046', endColorstr='#fb0f56', GradientType=0);
+        color: white;
+    }
+
+    .d_active {
+        background: rgb(76,0,30);
+        background: -moz-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+        background: -o-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+        background: -ms-linear-gradient(top, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+        background: linear-gradient(to bottom, rgba(76,0,30,1) 0%, rgba(159,7,53,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c001e', endColorstr='#9f0735', GradientType=0);
+        color: #dddddd;
+    }
+    
+    /* Контент для аккордеону */
+    .tab_content.active {
+        display: block;
     }
 }
