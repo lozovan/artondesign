@@ -103,4 +103,8 @@
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
+    .accordion-header p{
+        font-size: var(--normal-font-size);
+        line-height: var(--mobile-font-height-acordion);
+    }
 }

@@ -1,18 +1,15 @@
 $(document).ready(function() {
-    // Сховати всі вкладки на мобільних пристроях
     if ($(window).width() <= 768) {
       $(".tab_content").hide();
     } else {
-      // На десктопі показати першу вкладку
       $(".tab_content").hide();
       $(".tab_content:first").show();
     }
   
-    // Обробник кліків для вкладок
     $("ul.tabs li").click(function() {
-      $(".tab_content").hide(); // Приховати всі вкладки
+      $(".tab_content").hide(); 
       var activeTab = $(this).attr("rel"); 
-      $("#" + activeTab).fadeIn(); // Показати активну вкладку
+      $("#" + activeTab).fadeIn(); 
       
       $("ul.tabs li").removeClass("active");
       $(this).addClass("active");
@@ -21,11 +18,10 @@ $(document).ready(function() {
       $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
     });
   
-    // Обробник кліків для вкладок у мобільному режимі (дровар)
     $(".tab_drawer_heading").click(function() {
-      $(".tab_content").hide(); // Приховати всі вкладки
+      $(".tab_content").hide(); 
       var d_activeTab = $(this).attr("rel"); 
-      $("#" + d_activeTab).fadeIn(); // Показати активну вкладку
+      $("#" + d_activeTab).fadeIn();
       
       $(".tab_drawer_heading").removeClass("d_active");
       $(this).addClass("d_active");
@@ -34,13 +30,12 @@ $(document).ready(function() {
       $("ul.tabs li[rel^='" + d_activeTab + "']").addClass("active");
     });
   
-    // Перевірка при зміні розміру вікна
     $(window).resize(function() {
       if ($(window).width() <= 768) {
-        $(".tab_content").hide(); // Сховати вкладки на мобільних пристроях
+        $(".tab_content").hide(); 
       } else {
         $(".tab_content").hide();
-        $(".tab_content:first").show(); // Показати першу вкладку на десктопі
+        $(".tab_content:first").show(); 
       }
     });
   });
