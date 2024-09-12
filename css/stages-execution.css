@@ -107,7 +107,6 @@ ul.tabs {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    margin: 25px 0 0;
     padding: 0;
     width: 23%;
     min-width: 175px;
@@ -163,13 +162,9 @@ ul.tabs li.active {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    left: -2%;
     width: 70%;
-    min-width: 10px;
-    text-align: left;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--main-background-color);
+    height: 450px;
 }
 
 .tab_content {
@@ -180,6 +175,9 @@ ul.tabs li.active {
 .tab_drawer_heading { 
     display: none; 
 }
+.tab_content:first-of-type {
+    display: block; /* Показати першу вкладку на десктопах */
+  }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .stages-execution{
         padding-top: 40px;
@@ -196,16 +194,12 @@ ul.tabs li.active {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    /* .stages-execution__main {
-        display: block;
+    .tab_content {
+        display: none; /* Сховати всі вкладки на мобільних пристроях */
     }
-    .stages-execution__title{
-        gap: 0px;
+      .tab_drawer_heading {
+        display: block; /* Відображати заголовки вкладок на мобільних пристроях */
     }
-    .tab-content{
-        margin: auto;
-        height: auto;
-    } */
     ul.tabs {
         display: none; /* Сховати вкладки на мобільних пристроях */
     }
@@ -264,8 +258,8 @@ ul.tabs li.active {
         color: #dddddd;
     }
     
-    /* Контент для аккордеону */
-    .tab_content.active {
-        display: block;
+    .tab_container {
+        height: auto;
     }
+    
 }
