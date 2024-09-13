@@ -5,43 +5,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-img { 
+
+img {
     display: block;
     width: 100%;
 }
+
 html {
     scroll-behavior: smooth;
 }
-:root{
- --main-background-color: #1c1c1c;
- --main-background: #dfa542;
- --main-text-color: #ededed; 
- --additional-text-color:#ffffff;
- --main-font-size: 18px;
- --medium-font-size: 20px;
- --mask-effect-font-size: 35px;
- --normal-font-size: 16px;
- --font-size-h1: 60px;
- --font-size-h2: 52px;
- --text-font-weight: 800;
- --text-normal-font-weight: 400;
- --text-statictic-font-weight: 700;
- --main-font-family: "Montserrat", sans-serif;
+
+:root {
+    --main-background-color: #1c1c1c;
+    --main-background: #dfa542;
+    --main-text-color: #ededed;
+    --additional-text-color: #ffffff;
+    --main-font-size: 18px;
+    --medium-font-size: 20px;
+    --mask-effect-font-size: 35px;
+    --normal-font-size: 16px;
+    --font-size-h1: 60px;
+    --font-size-h2: 52px;
+    --text-font-weight: 800;
+    --text-normal-font-weight: 400;
+    --text-statictic-font-weight: 700;
+    --main-font-family: "Montserrat", sans-serif;
 
 
- --mobile-small-size: 14px;
- --mobile-project-size-title: 28px;
- --mobile-font-size-title: 36px;
- --mobile-font-height-title: 42px;
- --mobile-font-height-acordion: 20px;
+    --mobile-small-size: 14px;
+    --mobile-project-size-title: 28px;
+    --mobile-font-size-title: 36px;
+    --mobile-font-height-title: 42px;
+    --mobile-font-height-acordion: 20px;
 
- font-style: normal;
- text-transform: none;
+    font-style: normal;
+    text-transform: none;
 }
-.devider{
-  border: 0.8px solid #ffffff;
-  width: 100%;
-  margin: auto;
+
+.devider {
+    border: 0.8px solid #ffffff;
+    width: 100%;
+    margin: auto;
 }
 
 .container {
@@ -49,9 +53,8 @@ html {
     padding: 0 4.5rem 0;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width : 320px) and (max-width : 480px) {
     .container {
         padding: 0 1rem 0;
-    } 
+    }
 }
-
