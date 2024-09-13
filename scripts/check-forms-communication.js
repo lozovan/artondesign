@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.contact-form').submit(function(event) {
         event.preventDefault(); 
-        if ($('#name').val() === '' || $('#phone').val() === '' || $('#message').val() === '') {
+        if ($('#name').val() === '' || $('#phone').val() === '') {
             return false; 
         }
 
