@@ -45,6 +45,7 @@
     display: flex;
     list-style: none;
     gap: 10px;
+    margin-left: 220px;
 }
 
 .header__social-link svg {
@@ -135,5 +136,6 @@
     }
     .header__social-list{
         gap: 20px;
+        margin: 0;
     }
 }

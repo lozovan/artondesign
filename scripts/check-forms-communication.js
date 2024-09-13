@@ -1,0 +1,21 @@
+$(document).ready(function() {
+    $('.contact-form').submit(function(event) {
+        event.preventDefault(); 
+        if ($('#name').val() === '' || $('#phone').val() === '' || $('#message').val() === '') {
+            return false; 
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "mail/feedback.php", 
+            data: $(this).serialize()
+        }).done(function() {
+            $('.contact-form').find('input, textarea').val('');
+            swal('Звернення прийнято!', "Я зв'яжуться з Вами найблищим часом", 'success');
+        }).fail(function() {
+            swal('Помилка', 'Щось пішло не так. Спробуйте ще раз.', 'error');
+        });
+
+        return false;
+    });
+});

@@ -88,10 +88,10 @@
         <div class="client-communication__form">
             <h5>Зв'яжіться зі мною</h5><br>
             <form id="contact-form" class="contact-form">
-                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
-                <input type="tel" id="phone" name="phone" placeholder="Номер телефону" required>
-                <textarea id="message" name="message" cols="27" rows="2" placeholder="Короткий опис"
-                    required></textarea>
+                <input type="text" id="name" name="name" required placeholder="Ваше ім'я" required>
+                <input type="tel" id="phone" name="phone" required pattern="0[0-9]{9,13}" placeholder="Номер телефону 0989908099" required>
+                <textarea id="message" name="message" cols="27" rows="2" placeholder="Кілька слів про проєкт"></textarea>
+                    <!-- <div class="g-recaptcha" data-sitekey="6LdjGBQaAAAAALD6RHEPBkrDgjb1JOq8xFR6K5rM" data-theme="light"></div> -->
                 <p class="privacy-notice">*Ваші персональні дані захищені та не будуть передані іншим особам!</p>
                 <br><br>
                 <button class="btn-send" type="submit">Надіслати</button>
