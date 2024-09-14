@@ -50,6 +50,28 @@
     color: var(--main-text-color);
     background-color: var(--main-background-color);
 }
+
+
+/* @media (min-width: 768px) {
+    .slide_show img {
+        height: 650px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    .slider__content h2{
+        font-size: var(--mobile-font-size-title);
+        font-weight: var(--text-normal-font-weight);
+        text-align: left; 
+        letter-spacing: normal;
+    }
+    .slider__content a{
+        font-size: var(--mobile-small-size);
+        padding: 12px 32px;
+
+    }
+} */
+
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .slide_show img {
         height: 650px;
@@ -71,3 +93,4 @@
 
     }
 }
+

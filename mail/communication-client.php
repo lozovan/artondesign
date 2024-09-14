@@ -1,6 +1,6 @@
 <?php
 $to = "arton.interior.design@gmail.com";
-$tema = "Форма Зворотній звязок";
+$tema = "Запит від клієнта";
 $name = trim($_POST["name"]);
 $phone = trim($_POST["phone"]);
 $comments = trim($_POST["comments"]);

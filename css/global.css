@@ -37,6 +37,7 @@ html {
     --mobile-font-size-title: 36px;
     --mobile-font-height-title: 42px;
     --mobile-font-height-acordion: 20px;
+    --table-statistic-font-size: 42px;
 
     font-style: normal;
     text-transform: none;
@@ -52,6 +53,12 @@ html {
     margin: auto;
     padding: 0 4.5rem 0;
 }
+
+/* @media (min-width: 768px) {
+    .container {
+        padding: 0 1rem 0;
+    }
+} */
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .container {
