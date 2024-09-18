@@ -6,15 +6,6 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 :root {
     --main-background-color: #1c1c1c;
     --main-background: #dfa542;
@@ -41,6 +32,15 @@ html {
 
     font-style: normal;
     text-transform: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .devider {
