@@ -104,7 +104,28 @@ ul.tabs li.active {
     display: block;
 }
 
-@media (min-width: 768px) {
+
+
+@media (min-width : 320px) {
+    .stages-execution {
+        padding-top: 40px;
+    }
+
+    .stages-execution__main {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .stages-execution__title h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .stages-execution__title h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
     .tab_content {
         display: none;
     }
@@ -144,29 +165,11 @@ ul.tabs li.active {
 
     .tab_container {
         height: auto;
-    } 
- }
-
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    .stages-execution {
-        padding-top: 40px;
     }
+}
 
-    .stages-execution__main {
-        display: block;
-        padding-top: 20px;
-    }
 
-    .stages-execution__title h3 {
-        font-size: var(--mobile-font-size-title);
-        line-height: var(--mobile-font-height-title);
-    }
-
-    .stages-execution__title h2 {
-        font-size: var(--mobile-font-size-title);
-        line-height: var(--mobile-font-height-title);
-    }
-
+@media (min-width: 768px) {
     .tab_content {
         display: none;
     }

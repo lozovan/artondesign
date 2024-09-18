@@ -56,41 +56,47 @@
     max-width: 535px;
 }
 
-@media (min-width: 768px) {
-    .about-us__info{
+
+@media (min-width : 320px) {
+    .about-us__info {
         display: block;
     }
-    .about-us__text h2{
+
+    .about-us__text h2 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    .about-us__text p{
-     font-size: var(--normal-font-size);
-     letter-spacing: normal;
-     line-height: normal;
-     padding: 0;
+
+    .about-us__text p {
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 0;
     }
-    .delete_mobile{
+
+    .delete_mobile {
         display: none;
     }
 }
 
-
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    .about-us__info{
+@media (min-width: 768px) {
+    .about-us__info {
         display: block;
     }
-    .about-us__text h2{
+
+    .about-us__text h2 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    .about-us__text p{
-     font-size: var(--normal-font-size);
-     letter-spacing: normal;
-     line-height: normal;
-     padding: 0;
+
+    .about-us__text p {
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 0;
     }
-    .delete_mobile{
+
+    .delete_mobile {
         display: none;
     }
 }
