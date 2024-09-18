@@ -104,6 +104,49 @@ ul.tabs li.active {
     display: block;
 }
 
+@media (min-width: 768px) {
+    .tab_content {
+        display: none;
+    }
+
+    .tab_drawer_heading {
+        display: block;
+    }
+
+    ul.tabs {
+        display: none;
+    }
+
+    .tab_container {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        border-top: none;
+        border-radius: 0;
+    }
+
+    .tab_drawer_heading {
+        font-family: var(--main-font-family);
+        background-color: var(--main-background-color);
+        color: var(--main-text-color);
+        font-size: var(--medium-font-size);
+        line-height: var(--mobile-font-height-title);
+        border: 1px solid var(--main-text-color);
+        text-align: center;
+        padding: 5px 10px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .tab_drawer_heading:hover {
+        background-color: var(--main-background);
+    }
+
+    .tab_container {
+        height: auto;
+    } 
+ }
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .stages-execution {
         padding-top: 40px;

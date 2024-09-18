@@ -34,7 +34,7 @@
     letter-spacing: 2px
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     .statictic__description {
         padding: 30px 10px;
     }
@@ -51,7 +51,7 @@
         font-size: var(--normal-font-size);
         letter-spacing: normal;
     }
-} */
+}
 
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {

@@ -89,6 +89,7 @@
     display: inline-block;
     text-align: center;
 }
+
 .packages-service__details a:hover {
     color: var(--main-background-color);
     background-color: var(--main-background);
@@ -96,54 +97,67 @@
     cursor: pointer;
 }
 
-/* @media (min-width: 768px) {
-    .packages-service__main{
+/* Для маленьких екранів (від 320px) */
+@media (min-width: 320px) {
+    .packages-service__details a {
+        padding: 2% 1%;
+    }
+}
+
+/* Для ширших екранів (від 375px) */
+@media (min-width: 375px) {
+    .packages-service__details a {
+        padding: 3% 5%;
+    }
+}
+
+/* Для ще більших екранів (від 420px) */
+@media (min-width: 420px) {
+    .packages-service__details a {
+        padding: 3% 8%;
+    }
+}
+
+/* Для планшетів та більших екранів (від 768px) */
+@media (min-width: 768px) {
+    .packages-service__main {
         flex-direction: column;
     }
-    .packages-service__details{
+
+    .packages-service__details {
         justify-content: space-between;
     }
+
     .packages-service__details a {
-        padding: 3% 15.5%;
+        padding: 0.5em 6.1em;
     }
-    
- } */
+}
 
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    .packages-service{
-       padding-bottom: 40px;  
+    .packages-service {
+        padding-bottom: 40px;
     }
-    .packages-service__main{
-       display: flex; 
+
+    .packages-service__main {
+        display: flex;
     }
-    .packages-service-main__info{
+
+    .packages-service-main__info {
         padding: 10px;
     }
-    .packages-service__details{
+
+    .packages-service__details {
         gap: 5px;
     }
-    .packages-service h3{
+
+    .packages-service h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    .packages-service h2{
+
+    .packages-service h2 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
-    }
-}
-@media only screen and (min-width : 320px){
-    .packages-service__details a{
-        padding: 2% 1%;  
-    }
-}
-@media only screen and (min-width : 375px){
-    .packages-service__details a{
-        padding: 3% 5%;  
-    }
-}
-@media only screen and (min-width : 420px){
-    .packages-service__details a{
-        padding: 3% 8%;  
     }
 }
