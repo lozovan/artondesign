@@ -57,7 +57,7 @@
 }
 
 
-@media (min-width : 320px) {
+@media screen and (max-width: 768px) {
     .about-us__info {
         display: block;
     }
@@ -79,7 +79,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width : 320px) {
     .about-us__info {
         display: block;
     }
@@ -100,3 +100,4 @@
         display: none;
     }
 }
+

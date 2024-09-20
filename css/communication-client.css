@@ -180,7 +180,33 @@ textarea:focus {
 }
 
 
-@media (min-width : 320px) {
+@media screen and (max-width: 768px) {
+    .client-communication {
+        padding-top: 40px;
+    }
+
+    .client-communication__main {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding-top: 20px;
+    }
+
+    .client-communication h2,
+    .client-communication h3 {
+        text-align: center;
+    }
+
+}
+@media screen and (max-width : 375px){
+    .client-communication__main{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width : 320px) {
     .client-communication {
         padding-top: 40px;
     }
@@ -226,25 +252,6 @@ textarea:focus {
 
     .communication__social-list {
         gap: 15px;
-    }
-
-}
-
-@media (min-width: 768px) {
-    .client-communication {
-        padding-top: 40px;
-    }
-
-    .client-communication__main {
-        display: flex;
-        justify-content: center;
-        gap: 0px;
-        padding-top: 20px;
-    }
-
-    .client-communication h2,
-    .client-communication h3 {
-        text-align: center;
     }
 
 }

@@ -97,8 +97,39 @@
     cursor: pointer;
 }
 
+
+
+/* Для планшетів та більших екранів (від 768px) */
+@media screen and (max-width: 768px) {
+    .packages-service__main {
+        flex-direction: column;
+    }
+
+    .packages-service__details {
+        justify-content: space-between;
+    }
+
+    .packages-service__details a {
+        padding: 0.5em 6.1em;
+    }
+}
+
+/* Для ще більших екранів (від 420px) */
+@media screen and (max-width: 420px) {
+    .packages-service__details a {
+        padding: 3% 8%;
+    }
+}
+
+/* Для ширших екранів (від 375px) */
+@media screen and (max-width: 375px) {
+    .packages-service__details a {
+        padding: 3% 5%;
+    }
+}
+
 /* Для маленьких екранів (від 320px) */
-@media (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .packages-service {
         padding-bottom: 40px;
     }
@@ -130,31 +161,3 @@
     }
 }
 
-/* Для ширших екранів (від 375px) */
-@media (min-width: 375px) {
-    .packages-service__details a {
-        padding: 3% 5%;
-    }
-}
-
-/* Для ще більших екранів (від 420px) */
-@media (min-width: 420px) {
-    .packages-service__details a {
-        padding: 3% 8%;
-    }
-}
-
-/* Для планшетів та більших екранів (від 768px) */
-@media (min-width: 768px) {
-    .packages-service__main {
-        flex-direction: column;
-    }
-
-    .packages-service__details {
-        justify-content: space-between;
-    }
-
-    .packages-service__details a {
-        padding: 0.5em 6.1em;
-    }
-}

@@ -93,7 +93,7 @@
     color: var(--main-background);
 }
 
-@media (min-width : 320px) {
+@media screen and (max-width : 320px) {
     .project-design {
         padding-top: 40px;
         padding-bottom: 40px;

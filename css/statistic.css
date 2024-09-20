@@ -34,19 +34,7 @@
     letter-spacing: 2px
 }
 
-
-@media (min-width : 320px) {
-    .statictic__info {
-        gap: 5px;
-    }
-
-    .statictic__description {
-        padding: 10px 30px;
-        text-align: center;
-    }
-}
-
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .statictic__description {
         padding: 30px 10px;
     }
@@ -62,5 +50,16 @@
     .statictic__description-text {
         font-size: var(--normal-font-size);
         letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .statictic__info {
+        gap: 5px;
+    }
+
+    .statictic__description {
+        padding: 10px 30px;
+        text-align: center;
     }
 }

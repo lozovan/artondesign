@@ -57,8 +57,18 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .approach-work {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-@media (min-width : 320px) {
+    .approach-work-info {
+        flex: 1 0 40%;
+    }
+}
+
+@media screen and (max-width : 320px) {
     .approach-work {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -80,17 +90,5 @@
 
     .approach-work-info p {
         letter-spacing: normal;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .approach-work {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .approach-work-info {
-        flex: 1 0 40%;
     }
 }

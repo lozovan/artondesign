@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "mail/communication-client.php", 
+            // url: "mail/communication-client.php", 
             data: $(this).serialize()
         }).done(function() {
             $('.contact-form').find('input, textarea').val('');

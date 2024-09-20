@@ -91,10 +91,22 @@
     margin: 15px 0;
 }
 
+@media screen and (max-width: 768px) {
+    .questions-popular {
+        padding-bottom: 40px;
+    }
 
+    .accordion-container {
+        display: block;
+        padding-top: 15px;
+    }
 
+    .accordion-container {
+        gap: 10px;
+    }
+}
 
-@media (min-width : 320px) {
+@media screen and (max-width : 320px) {
     .accordion-container {
         display: block;
     }
@@ -118,20 +130,4 @@
         padding-bottom: 40px;
     }
 
-}
-
-
-@media (min-width: 768px) {
-    .questions-popular {
-        padding-bottom: 40px;
-    }
-
-    .accordion-container {
-        display: block;
-        padding-top: 15px;
-    }
-
-    .accordion-container {
-        gap: 10px;
-    }
 }

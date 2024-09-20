@@ -34,6 +34,7 @@
     text-transform: none;
 }
 
+
 img {
     display: block;
     width: 100%;
@@ -54,14 +55,13 @@ html {
     padding: 0 4.5rem;
 }
 
-
-@media (min-width : 320px) {
+@media screen and (max-width: 768px) {
     .container {
         padding: 0 1rem;
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width : 320px) {
     .container {
         padding: 0 1rem;
     }
