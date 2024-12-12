@@ -105,6 +105,18 @@
         gap: 10px;
     }
 }
+/* Для ширших екранів (від 375px) */
+@media screen and (max-width: 375px) {
+    .questions-popular h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .questions-popular h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+}
 
 @media screen and (max-width : 320px) {
     .accordion-container {

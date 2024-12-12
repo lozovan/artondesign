@@ -123,8 +123,24 @@
 
 /* Для ширших екранів (від 375px) */
 @media screen and (max-width: 375px) {
+    .packages-service h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .packages-service h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .packages-service-main__info p{
+        letter-spacing: 0;
+    }
+    .packages-service__details {
+        gap: 10px;
+    }
     .packages-service__details a {
-        padding: 3% 5%;
+        padding: 2% 8%;
+        font-size: var(--mobile-small-size);
     }
 }
 
@@ -141,9 +157,12 @@
     .packages-service-main__info {
         padding: 10px;
     }
+    .packages-service-main__info p{
+        letter-spacing: 0;
 
+    }
     .packages-service__details {
-        gap: 5px;
+        gap: 10px;
     }
 
     .packages-service h3 {
@@ -157,7 +176,8 @@
     }
 
     .packages-service__details a {
-        padding: 2% 1%;
+        padding: 1% 6%;
+        font-size: var(--mobile-small-size);
     }
 }
 

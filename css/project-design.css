@@ -93,6 +93,20 @@
     color: var(--main-background);
 }
 
+/* Для ширших екранів (від 375px) */
+@media screen and (max-width: 375px) {
+    .project-design h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .project__design_main {
+        display: block;
+    }     
+    .project-design__info-mask{
+        opacity: 1;
+    }   
+}
+
 @media screen and (max-width : 320px) {
     .project-design {
         padding-top: 40px;
@@ -124,5 +138,8 @@
     .project-design__more {
         text-align: center;
     }
+    .project-design__info-mask{
+        opacity: 1;
+    } 
 
 }
