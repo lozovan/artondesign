@@ -115,10 +115,11 @@
 }
 
 /* Для ще більших екранів (від 420px) */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .packages-service__details a {
         padding: 3% 8%;
     }
+    
 }
 
 /* Для ширших екранів (від 375px) */

@@ -198,6 +198,14 @@ textarea:focus {
     }
 
 }
+
+@media screen and (max-width: 425px) {
+    .client-communication__main{
+        flex-direction: column;
+    }
+    
+}
+
 @media screen and (max-width : 375px){
     .client-communication__main{
         display: block;
