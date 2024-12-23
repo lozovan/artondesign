@@ -104,8 +104,68 @@ ul.tabs li.active {
     display: block;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
+    ul.tabs {
+        width: 30%;
+    }
+    ul.tabs li {
+        cursor: pointer;
+        margin: 0px 0px 5px 0px;
+        padding: 15px;
+        text-align: center;
+        background-color: var(--main-background-color);
+        color: var(--main-text-color);
+        font-family: var(--main-font-family);
+        font-weight: var(--text-statictic-font-weight);
+        font-size: var(--main-font-size);
+        letter-spacing: 0.1rem;
+        transition: all .3s ease;
+    }
+    .tab_container {
+        width: 67.8%;
+        height: 450px;
+    }
+    .tab_content p {
+        font-family: var(--main-font-family);
+        font-weight: var(--text-normal-font-weight);
+        font-size: var(--normal-font-size);
+        color: var(--main-text-color);
+        line-height: 18px;
+        letter-spacing: 0;
+        padding: 4px 0px;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    ul.tabs {
+        width: 30%;
+    }
+    ul.tabs li {
+        cursor: pointer;
+        margin: 0px 0px 5px 0px;
+        padding: 15px;
+        text-align: center;
+        background-color: var(--main-background-color);
+        color: var(--main-text-color);
+        font-family: var(--main-font-family);
+        font-weight: var(--text-statictic-font-weight);
+        font-size: var(--main-font-size);
+        letter-spacing: 0.1rem;
+        transition: all .3s ease;
+    }
+    .tab_container {
+        width: 67.8%;
+        height: 495px;
+    }
+    .tab_content p {
+        font-family: var(--main-font-family);
+        font-weight: var(--text-normal-font-weight);
+        font-size: var(--normal-font-size);
+        color: var(--main-text-color);
+        line-height: 18px;
+        letter-spacing: 0;
+        padding: 2px 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {

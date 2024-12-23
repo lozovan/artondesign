@@ -97,6 +97,19 @@
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 1280px) {
+    .packages-service-main__info p {
+        font-size: var(--mobile-small-size);
+        letter-spacing: 0;
+    }
+    .packages-service__details a {
+        padding: 2% 9%;
+        font-size: var(--mobile-small-size);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .packages-service__details {
         gap: 10px;

@@ -19,6 +19,15 @@
     font-size: var(--main-font-size);
     color: var(--main-text-color);
 }
+@media screen and (max-width: 1024px) {
+    .footer__logo-container {
+        width: 180px;
+    }
+
+    .footer__private p {
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .footer__logo-container {

@@ -28,6 +28,8 @@
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    padding-top: 40px;
+
 }
 
 .client-communication__info,
@@ -179,7 +181,31 @@ textarea:focus {
     font-size: 14px;
     opacity: 0.5;
 }
+@media screen and (max-width: 1280px) {
+    .client-communication__main{
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .client-communication {
+        padding-top: 40px;
+    }
 
+    .client-communication__main {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .client-communication h2,
+    .client-communication h3 {
+        text-align: center;
+    }
+    .client-communication__info p {
+        letter-spacing: normal;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .client-communication {
