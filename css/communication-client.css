@@ -177,6 +177,7 @@ textarea:focus {
     font-family: var(--main-font-family);
     font-weight: var(--text-normal-font-weight);
     font-size: 14px;
+    opacity: 0.5;
 }
 
 
@@ -188,7 +189,7 @@ textarea:focus {
     .client-communication__main {
         display: flex;
         justify-content: center;
-        gap: 0px;
+        gap: 20px;
         padding-top: 20px;
     }
 
@@ -196,24 +197,107 @@ textarea:focus {
     .client-communication h3 {
         text-align: center;
     }
+    .client-communication__info p {
+        letter-spacing: normal;
+    }
 
 }
 
 @media screen and (max-width: 425px) {
-    .client-communication__main{
-        flex-direction: column;
+    .client-communication {
+        padding-top: 40px;
     }
+
+    .client-communication__main {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .client-communication__info {
+        text-align: center;
+    }
+
+    .client-communication h3 {
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
     .client-communication h2 {
         font-size: var(--mobile-project-size-title);
         line-height: normal;
         text-align: center;
         letter-spacing: normal;
     }
+
+    .client-communication__info p {
+        letter-spacing: normal;
+    }
+
+    .client-communication__form h5 {
+        text-align: center;
+    }
+
+    .privacy-notice {
+        text-align: center;
+    }
+
+    .communication__social {
+        justify-content: center;
+    }
+
+    .communication__social-list {
+        gap: 15px;
+    }
 }
 
 @media screen and (max-width : 375px){
-    .client-communication__main{
-        display: block;
+    .client-communication {
+        padding-top: 40px;
+    }
+
+    .client-communication__main {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .client-communication__info {
+        text-align: center;
+    }
+
+    .client-communication h3 {
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .client-communication h2 {
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        text-align: center;
+        letter-spacing: normal;
+    }
+
+    .client-communication__info p {
+        letter-spacing: normal;
+    }
+
+    .client-communication__form h5 {
+        text-align: center;
+    }
+
+    .privacy-notice {
+        text-align: center;
+    }
+
+    .communication__social {
+        justify-content: center;
+    }
+
+    .communication__social-list {
+        gap: 15px;
     }
 
 }

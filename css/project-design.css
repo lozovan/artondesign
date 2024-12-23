@@ -92,7 +92,11 @@
 .project-design__more a:hover {
     color: var(--main-background);
 }
-
+@media screen and (max-width: 1024px) {    
+    .project-design__info-mask{
+        opacity: 1;
+    }    
+}
 @media screen and (max-width: 768px) {    
     .project-design__info-mask{
         opacity: 1;

@@ -56,9 +56,24 @@
     padding-top: 10px;
 }
 
+@media screen and (max-width: 1024px){
+    .approach-work__main{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .approach-work-info {
+        flex: 1 0 30%;
+    }
+    .approach-work-info p{
+        font-size: var(--table-small-size);
+        line-height: 20px;
+        letter-spacing: 0;
+    } 
+}
 
 @media screen and (max-width: 768px) {
-    .approach-work {
+    .approach-work__main{
         padding-top: 40px;
         padding-bottom: 40px;
     }

@@ -97,9 +97,20 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+    .packages-service__details {
+        gap: 10px;
+    }
+    .packages-service-main__info p {
+        font-size: var(--mobile-small-size);
+        letter-spacing: 0;
+    }
+    .packages-service__details a {
+        padding: 2% 3.5%;
+        font-size: var(--mobile-small-size);
+    }
+}
 
-
-/* Для планшетів та більших екранів (від 768px) */
 @media screen and (max-width: 768px) {
     .packages-service__main {
         flex-direction: column;
@@ -109,7 +120,7 @@
         gap: 10px;
     }
     .packages-service__details a {
-        padding: 2% 15.5%;
+        padding: 1% 15.5%;
     }
 }
 

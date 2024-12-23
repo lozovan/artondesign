@@ -95,6 +95,19 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        width: 180px;
+        margin: 22px 0px;
+    }
+    .header__menu {
+        gap: 25px;
+    }
+    .header__social-list {
+        gap: 10px;
+        margin-left: 0px;
+    }    
+}
 
 @media screen and (max-width: 768px) {
     .header {

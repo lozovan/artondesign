@@ -104,6 +104,10 @@ ul.tabs li.active {
     display: block;
 }
 
+@media screen and (max-width: px) {
+
+}
+
 @media screen and (max-width: 768px) {
     .tab_content {
         display: none;
@@ -146,7 +150,16 @@ ul.tabs li.active {
         height: auto;
     }
 }
-
+@media screen and (max-width: 425px) {
+    .stages-execution__title{
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .stages-execution__title{
+        gap: 0px;
+    }
+}
 @media screen and (max-width : 320px) {
     .stages-execution {
         padding-top: 40px;
@@ -156,7 +169,9 @@ ul.tabs li.active {
         display: block;
         padding-top: 20px;
     }
-
+    .stages-execution__title{
+        gap: 0px;
+    }
     .stages-execution__title h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);

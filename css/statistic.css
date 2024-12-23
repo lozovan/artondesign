@@ -34,6 +34,25 @@
     letter-spacing: 2px
 }
 
+@media screen and (max-width: 1024px) {
+    .statictic__description {
+        padding: 30px 10px;
+    }
+
+    .count {
+        font-size: var(--table-statistic-font-size);
+    }
+
+    .statictic__description-plus {
+        font-size: var(--table-statistic-font-size);
+    }
+
+    .statictic__description-text {
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+    }    
+}
+
 @media screen and (max-width: 768px) {
     .statictic__description {
         padding: 30px 10px;
