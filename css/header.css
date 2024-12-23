@@ -95,11 +95,6 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1920px) {
-    .header__social-list {
-        margin-left: 370px;
-    }
-}
 
 @media screen and (max-width: 1400px) {
     .header__menu {
