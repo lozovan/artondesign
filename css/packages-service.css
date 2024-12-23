@@ -97,17 +97,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1920px) {
-    .packages-service__details a {
-        padding: 2% 12.5%;
-    } 
-}
-
-@media screen and (max-width: 1600px) {
-    .packages-service__details a {
-        padding: 2% 10%;
-    } 
-}
 
 @media screen and (max-width: 1400px) {
     .packages-service__details a {
