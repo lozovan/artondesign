@@ -93,6 +93,21 @@
     color: var(--main-background);
 }
 
+@media screen and (max-width: 768px) {    
+    .project-design__info-mask{
+        opacity: 1;
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    .project__design_main {
+        display: block;
+    }     
+    .project-design__info-mask{
+        opacity: 1;
+    }    
+}
+
 /* Для ширших екранів (від 375px) */
 @media screen and (max-width: 375px) {
     .project-design h2 {

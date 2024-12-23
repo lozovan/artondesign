@@ -203,7 +203,12 @@ textarea:focus {
     .client-communication__main{
         flex-direction: column;
     }
-    
+    .client-communication h2 {
+        font-size: var(--mobile-project-size-title);
+        line-height: normal;
+        text-align: center;
+        letter-spacing: normal;
+    }
 }
 
 @media screen and (max-width : 375px){

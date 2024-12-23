@@ -106,18 +106,24 @@
     }
 
     .packages-service__details {
-        justify-content: space-between;
+        gap: 10px;
     }
-
     .packages-service__details a {
-        padding: 0.5em 6.1em;
+        padding: 2% 15.5%;
     }
 }
 
 /* Для ще більших екранів (від 420px) */
 @media screen and (max-width: 425px) {
+    .packages-service-main__info p{
+        letter-spacing: 0;
+    }
+    .packages-service__details {
+        gap: 10px;
+    }
     .packages-service__details a {
-        padding: 3% 8%;
+        padding: 2% 10%;
+        font-size: var(--mobile-small-size);
     }
     
 }

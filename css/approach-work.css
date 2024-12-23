@@ -66,9 +66,20 @@
     .approach-work-info {
         flex: 1 0 40%;
     }
+    .approach-work-info p{
+        letter-spacing: 0;
+    } 
+}
+@media screen and (max-width: 425px) {
+    .approach-work__main{
+        flex-direction: column;
+    }
+    .approach-work-info p{
+        letter-spacing: 0;
+    }    
 }
 
-/* Для ширших екранів (від 375px) */
+
 @media screen and (max-width: 375px) {
     .approach-work h3 {
         font-size: var(--mobile-font-size-title);
