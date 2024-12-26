@@ -39,17 +39,15 @@
     transition: transform 0.5s ease-in-out;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 23.5px;
+    gap: 15px;
 }
 
 .feedback-slide {
     flex: 1 0 32%;
-    display: flex;
+    display: block;
     padding: 20px;
-    flex-wrap: wrap;
-    align-items: flex-start;
     border: 1px solid #ededed;
-    gap: 10px
+    box-sizing: border-box;
 }
 
 .feedback-namelocation img {
@@ -97,12 +95,60 @@
 .feedback-namelocation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 20px;
     padding: 0px 0px 15px 0px;
 }
 
 
+@media (min-width: 1601px) and (max-width: 1920px)  {
+    .feedback-slide{
+        display: block;
+    }
+    .feedback-slider {
+        gap: 22px;
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1600px)  {
+    .feedback-slide{
+        display: block;
+    }
+    .feedback-slider {
+        gap: 18px;
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .feedback-slider-buttons {
+        display: none;
+    }
+    .feedback-slider-buttons {
+        padding-bottom: 10px;
+    }
+
+    .feedback-slider-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .feedback-slide {
+        display: block;
+        flex: 1 0 32%;
+        padding: 15px;
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+    /* .feedback-slider {
+        gap: 8.8px;
+    } */
+
+}
 
 @media screen and (max-width: 768px) {
     .feedback-slider-buttons {
@@ -113,19 +159,92 @@
     }
 
     .feedback-slider-container {
-        padding-bottom: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .feedback-slide {
-        flex: 1 0 47%;
-        padding: 15px;
-        gap: 8px;
+        display: block;
+        flex: 1 0 48%;
+        padding: 15px; 
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .feedback-section {
+        padding-top: 40px;
     }
 
-    .feedback-slider {
-        gap: 15px;
+    .feedback-section h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
     }
 
+    .feedback-section h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .feedback-slider-buttons {
+        padding-bottom: 10px;
+    }
+
+    .feedback-slider-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .feedback-slide {
+        display: block;
+        flex: 0 0 100%;
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+    .feedback-text {
+        font-size: var(--mobile-small-size);
+        line-height: var(--normal-font-size);
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .feedback-section {
+        padding-top: 40px;
+    }
+
+    .feedback-section h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .feedback-section h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .feedback-slider-buttons {
+        padding-bottom: 10px;
+    }
+
+    .feedback-slider-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .feedback-slide {
+        display: block;
+        flex: 0 0 100%;
+    }
+    .feedback-namelocation{
+        justify-content: flex-start;
+    }
+    .feedback-text {
+        font-size: var(--mobile-small-size);
+        line-height: var(--normal-font-size);
+    }
 }
 
 @media screen and (max-width : 320px) {
@@ -148,17 +267,16 @@
     }
 
     .feedback-slider-container {
-        padding-top: 0px;
+        padding-top: 40px;
         padding-bottom: 40px;
     }
 
-    .feedback-slider {
-        gap: 0px;
-    }
-
     .feedback-slide {
-        display: flex;
+        display: block;
         flex: 0 0 100%;
-        gap: 10px;
+    }
+    .feedback-text {
+        font-size: var(--mobile-small-size);
+        line-height: var(--normal-font-size);
     }
 }
