@@ -95,6 +95,14 @@
     margin-top: 10px;
 }
 
+@media (min-width: 1600px) and (max-width: 1920px)  {
+    .header__menu {
+        gap: 25px;
+    }
+    .header__social-list {
+        margin-left: 450px;
+    }  
+}
 
 @media screen and (max-width: 1400px) {
     .header__menu {
