@@ -59,4 +59,26 @@ if (feedbackSlider && feedbackSlides.length > 0) {
     });
 
     setInterval(nextFeedbackSlide, 6000);
+
+    // Додати підтримку жестів
+    let startX = 0;
+    let endX = 0;
+
+    feedbackSlider.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX; // Зберігаємо початкову позицію
+    });
+
+    feedbackSlider.addEventListener('touchmove', (e) => {
+        endX = e.touches[0].clientX; // Зберігаємо кінцеву позицію
+    });
+
+    feedbackSlider.addEventListener('touchend', () => {
+        if (startX > endX + 50) {
+            // Якщо переміщення вліво
+            nextFeedbackSlide();
+        } else if (startX < endX - 50) {
+            // Якщо переміщення вправо
+            prevFeedbackSlide();
+        }
+    });
 }
