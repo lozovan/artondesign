@@ -56,7 +56,6 @@
     border-radius: 50%;
 }
 
-
 .feedback-location,
 .feedback-name {
     font-family: var(--main-font-family);
@@ -144,10 +143,6 @@
     .feedback-namelocation{
         justify-content: flex-start;
     }
-    /* .feedback-slider {
-        gap: 8.8px;
-    } */
-
 }
 
 @media screen and (max-width: 768px) {
