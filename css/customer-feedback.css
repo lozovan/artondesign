@@ -55,7 +55,7 @@
 .feedback-namelocation img {
     width: 80px;
     height: 80px;
-    border-radius: 51%;
+    border-radius: 50%;
 }
 
 
@@ -103,7 +103,11 @@
 }
 
 
+
 @media screen and (max-width: 768px) {
+    .feedback-slider-buttons {
+        display: none;
+    }
     .feedback-slider-buttons {
         padding-bottom: 10px;
     }

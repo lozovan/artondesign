@@ -216,8 +216,25 @@ ul.tabs li.active {
     }
 }
 @media screen and (max-width: 375px) {
+    .stages-execution{
+        padding-top: 40px;
+        padding-bottom: 40px; 
+    }
     .stages-execution__title{
+        display: block;
         gap: 0px;
+    }
+    .stages-execution__main{
+        padding-top: 30px;  
+    }
+    .stages-execution__title h3 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+
+    .stages-execution__title h2 {
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
     }
 }
 @media screen and (max-width : 320px) {
