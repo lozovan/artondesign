@@ -5,6 +5,7 @@ document.addEventListener('partialsLoaded', () => {
     import("./tabs-stages.js");
     import("./slider-customer-feedback.js");
     import("./accordion.js");
-    import("./pagination.js")
+    import("./pagination.js");
+    import("./image-zoom.js");
     import("./check-forms-communication.js")
 });
