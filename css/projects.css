@@ -1,0 +1,22 @@
+.projects__info {
+    background-color: var(--main-background-color);
+    padding-top: 60px;
+}
+
+.projects_text h2 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-h1);
+    font-weight: var(--text-font-weight);
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.projects_text p {
+    color: var(--main-text-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--text-normal-font-weight);
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}

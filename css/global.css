@@ -11,6 +11,7 @@
     --main-background: #dfa542;
     --main-text-color: #ededed;
     --additional-text-color: #ffffff;
+    --pagination-color-hover: #444444;
     --main-font-size: 18px;
     --medium-font-size: 20px;
     --mask-effect-font-size: 35px;
@@ -51,11 +52,14 @@ html {
     margin: auto;
 }
 
+body {
+    padding-top: 65px; /* Висота меню */
+}
+
 .container {
     margin: auto;
     padding: 0 4.5rem;
 }
-
 @media screen and (max-width: 768px) {
     .container {
         padding: 0 1rem;
