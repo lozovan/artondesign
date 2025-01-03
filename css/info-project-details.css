@@ -78,16 +78,14 @@
 }
 
 .info-project-rooms,
-.info-project-virtual,
-.info-project-effects {
+.info-project-virtual{
   background-color: var(--main-background-color);
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
 .info-project-rooms h3,
-.info-project-virtual h3,
-.info-project-effects h3 {
+.info-project-virtual h3{
   font-family: var(--main-font-family);
   font-weight: var(--text-statictic-font-weight);
   font-size: var(--mobile-project-size-title);
@@ -108,7 +106,7 @@
 
 .grid-gallery img {
   width: 100%;
-  height: 100%;
+  height: 100%; 
   object-fit: cover;
   cursor: pointer;
   position: relative;
@@ -129,11 +127,11 @@
 }
 
 .grid-position3 {
-  flex: 1 0 30%;
+  flex: 1 0 40%;
 }
 
 .grid-position4 {
-  flex: 1 0 70%;
+  flex: 1 0 60%;
 }
 
 .grid-position5 {
@@ -145,15 +143,15 @@
 }
 
 .grid-position7 {
-  flex: 1 0 30%;
+  flex: 1 0 33%;
 }
 
 .grid-position8 {
-  flex: 1 0 40%;
+  flex: 1 0 33%;
 }
 
 .grid-position9 {
-  flex: 1 0 30%;
+  flex: 1 0 33%;
 }
 
 .grid-position10 {
@@ -196,13 +194,14 @@
   flex: 1 0 25%;
 }
 
+
 .lightbox {
   position: fixed;
   top: 75px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   display: none;
   justify-content: center;
   align-items: center;
