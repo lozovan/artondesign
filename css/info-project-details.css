@@ -1,5 +1,245 @@
+.info-project-details {
+  background-color: var(--main-text-color);
+  padding-top: 80px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.info-project-details__title {
+  flex: 1 0 30%;
+  align-self: center;
+}
+
+.info-project-details__title h2 {
+  color: var(--main-background-color);
+  font-family: var(--main-font-family);
+  font-size: var(--font-size-h2);
+  font-weight: var(--text-font-weight);
+  line-height: 70px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.info-project-details__title p {
+  color: var(--main-background-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--text-normal-font-weight);
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: inherit;
+  padding: 4px 0px 4px 0px;
+}
+
+.info-project-details__text {
+  flex: 1 0 60%;
+  align-self: center;
+}
+
+.info-project-details__text p {
+  font-family: var(--main-font-family);
+  font-weight: var(--text-normal-font-weight);
+  font-size: var(--normal-font-size);
+  text-transform: inherit;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+
+.info-project-planning {
+  background-color: var(--main-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.planning_before {
+  flex: 1 0 50%;
+  align-self: center;
+}
+
+.planning_after {
+  flex: 1 0 50%;
+  align-self: center;
+}
+
+.planning_before p,
+.planning_after p {
+  font-family: var(--main-font-family);
+  font-weight: var(--text-statictic-font-weight);
+  font-size: var(--mobile-project-size-title);
+  color: var(--main-text-color);
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.info-project-rooms,
+.info-project-virtual,
+.info-project-effects {
+  background-color: var(--main-background-color);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.info-project-rooms h3,
+.info-project-virtual h3,
+.info-project-effects h3 {
+  font-family: var(--main-font-family);
+  font-weight: var(--text-statictic-font-weight);
+  font-size: var(--mobile-project-size-title);
+  color: var(--main-text-color);
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 32px 0px;
+}
+
 .grid-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 3fr); 
-    gap: 20px; 
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.grid-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.grid-gallery img:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.grid-position1 {
+  flex: 1 0 60%;
+}
+
+.grid-position2 {
+  flex: 1 0 40%;
+}
+
+.grid-position3 {
+  flex: 1 0 30%;
+}
+
+.grid-position4 {
+  flex: 1 0 70%;
+}
+
+.grid-position5 {
+  flex: 1 0 60%;
+}
+
+.grid-position6 {
+  flex: 1 0 40%;
+}
+
+.grid-position7 {
+  flex: 1 0 30%;
+}
+
+.grid-position8 {
+  flex: 1 0 40%;
+}
+
+.grid-position9 {
+  flex: 1 0 30%;
+}
+
+.grid-position10 {
+  flex: 1 0 25%;
+}
+
+.grid-position11 {
+  flex: 1 0 25%;
+}
+
+.grid-position12 {
+  flex: 1 0 50%;
+}
+
+.grid-position13 {
+  flex: 1 0 35%;
+}
+
+.grid-position14 {
+  flex: 1 0 35%;
+}
+
+.grid-position15 {
+  flex: 1 0 30%;
+}
+
+.grid-position16 {
+  flex: 1 0 25%;
+}
+
+.grid-position17 {
+  flex: 1 0 25%;
+}
+
+.grid-position18 {
+  flex: 1 0 25%;
+}
+
+.grid-position19 {
+  flex: 1 0 25%;
+}
+
+.lightbox {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  object-fit: none;
+}
+
+.lightbox .prev,
+.lightbox .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: var(--additional-text-color);
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lightbox .prev {
+  left: 10px;
+}
+
+.lightbox .next {
+  right: 10px;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  color: var(--additional-text-color);
+  background: none;
+  border: none;
+  cursor: pointer;
 }
