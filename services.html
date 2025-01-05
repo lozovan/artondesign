@@ -1,19 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Послуги - замовити дизайн інтер'єру в студії ARton </title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="scripts/sweetalert.min.js"></script>
 </head>
+
 <body>
     <header data-include="partials/index.header.partial.html"></header>
     <main>
-         
+        <div class="services__info">
+            <img src="/img/others_img/service_bg.png" alt="">
+            <div class="container services__info-title">
+                <h2>пакети</h2>
+                <h3>послуг</h3>
+            </div>
+        </div>
+        <section class="container services__info-package">
+            <div class="packages-service__main">
+                <div class="packages-service-main__info">
+                    <h4>silver</h4>
+                    <br>
+                    <hr class="devider">
+                    <br>
+                    <p>Даний пакет буде актуальним для тих, хто має обмежений час на розробку проекту чи
+                        бажає самостійно створювати дизайн власного житла. А технічні креслення та схеми
+                        будуть чіткою основою для створення дизайну та майбутньої реалізації проєкту. Ви самостійно
+                        реалізуєте мрію. <br>
+                    </p>
+                    <br>
+                    <p class="packages-service__terms"><strong>терміни: від 14 днів</strong></p>
+                    <p class="packages-service__price"><strong>вартість: 10 $/м2</strong></p>
+                    <br>
+                    <div class="packages-service__details">
+                        <a href="silver.html">детальніше</a>
+                        <a href="#client-communication">зв'язатися</a>
+                    </div>
+                </div>
+                <div class="packages-service-main__info">
+                    <h4>gold</h4>
+                    <br>
+                    <hr class="devider">
+                    <br>
+                    <p>Даний пакет для тих, хто хоче отримати стильний та функціональний інтер’єр спроєктований під ваш
+                        бюджет
+                        та потреби. Ви отримаєте повний комплект документації, необхідний для реалізації дизайну:
+                        фотореалістичні 3D-візуалізації, всі необхідні креслення та специфікацію.</p>
+                    <br>
+                    <p class="packages-service__terms"><strong>терміни: від 2-х місяців</strong></p>
+                    <p class="packages-service__price"><strong>вартість: 22 $/м2</strong></p>
+                    <br>
+                    <div class="packages-service__details">
+                        <a href="gold.html">детальніше</a>
+                        <a href="#client-communication">зв'язатися</a>
+                    </div>
+                </div>
+                <div class="packages-service-main__info">
+                    <h4>premium</h4>
+                    <br>
+                    <hr class="devider">
+                    <br>
+                    <p>Даний пакет дозволить зняти з Вас додаткові клопоти пов’язані з реалізацією
+                        проєкту. Підійте тим, хто не має часу протягом дня відповідати на безліч запитань
+                        підрядників, вирішуватити непередбачувані ситуації та контролювати виконання робіт
+                        у відповідності проекту.
+                    </p>
+                    <br>
+                    <p class="packages-service__terms"><strong>терміни: період ремонту</strong></p>
+                    <p class="packages-service__price"><strong>вартість: 35 $/м2</strong></p>
+                    <br>
+                    <div class="packages-service__details">
+                        <a href="premium.html">детальніше</a>
+                        <a href="#client-communication">зв'язатися</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-include="partials/index.section.stages-execution.partial.html"></section>
+        <section data-include="partials/index.section.customer-feedback.partial.html"></section>
+        <section data-include="partials/index.section.client-communication.partial.html"></section>
     </main>
-    <footer data-include="partials/index.footer.partial.html"></footer> 
-       <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
- <script src="scripts/index.js"></script>
+    <footer data-include="partials/index.footer.partial.html"></footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
+
 </html>
