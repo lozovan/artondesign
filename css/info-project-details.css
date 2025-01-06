@@ -80,7 +80,6 @@
 .info-project-rooms,
 .info-project-virtual{
   background-color: var(--main-background-color);
-  padding-top: 4px;
   padding-bottom: 4px;
 }
 
