@@ -126,20 +126,20 @@
 }
 
 .grid-position3 {
-  flex: 1 0 40%;
+  flex: 1 0 50%;
 }
 
 .grid-position4 {
-  flex: 1 0 60%;
+  flex: 1 0 50%;
 }
 
-.grid-position5 {
+/* .grid-position5 {
   flex: 1 0 60%;
 }
 
 .grid-position6 {
   flex: 1 0 40%;
-}
+} */
 
 .grid-position7 {
   flex: 1 0 33%;
@@ -154,15 +154,15 @@
 }
 
 .grid-position10 {
-  flex: 1 0 25%;
+  flex: 1 0 38%;
 }
 
 .grid-position11 {
-  flex: 1 0 25%;
+  flex: 1 0 24%;
 }
 
 .grid-position12 {
-  flex: 1 0 50%;
+  flex: 1 0 38%;
 }
 
 .grid-position13 {
@@ -191,6 +191,9 @@
 
 .grid-position19 {
   flex: 1 0 25%;
+}
+.grid-position20 {
+  flex: 1 0 100%;
 }
 
 
