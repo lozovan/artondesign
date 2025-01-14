@@ -188,3 +188,88 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1280px) {
+  
+}
+
+@media screen and (max-width: 1024px){
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 425px) {
+   
+}
+
+
+@media screen and (max-width: 375px) {
+  
+}
+
+@media screen and (max-width : 320px) {
+    .packages__info{
+      display: flex;
+      flex-direction: column;
+    }
+    .packages__info img{
+        height: 1300px;
+        object-fit: cover;
+        object-position: 50% 50%;  
+    }
+    .packages__info-text p{
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 0; 
+    }
+    .packages__info-packages-price{
+      display: flex;  
+      flex-direction: column;
+    }
+    .packages__info-description-more{
+        padding: 0;
+    }
+    .packages__info-description-more ul{
+        display: block;
+        padding-bottom: 40px;
+    }
+    .packages__info-description{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .packages__info-description-title{
+        border-right: none;
+        display: block;
+        margin: auto;
+    }
+    .packages__info-description-title p{
+        text-align: center;
+    }
+    .packages__info-description-title h3{
+        font-size: var(--mobile-project-size-title);
+        line-height: var(--mobile-font-height-title);
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .info-project-virtual-description{
+        display: block;
+    }
+    .info-project-virtual-title h2{
+        font-size: var(--mobile-font-size-title);
+        line-height: var(--mobile-font-height-title);
+    }
+    .info-project-virtual-title h3{
+        font-size: var(--mobile-project-size-title);
+        line-height: var(--mobile-font-size-title);
+    }
+    .info-project-virtual-title p{
+        font-size: var(--normal-font-size);
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 0; 
+    }
+}
