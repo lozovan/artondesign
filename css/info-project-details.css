@@ -242,83 +242,182 @@
 }
 
 
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1280px) {
+  
+}
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+  .info-project-details {
+    gap: 30px;
+    padding-top: 41px;
+    padding-bottom: 38px;
+  }
 
-@media screen and (max-width: 768px) {}
+  .info-project-details__title {
+    flex: 1 0 50%;
+  }
 
-@media screen and (max-width: 425px) {}
+  .info-project-details__text {
+    flex: 1 0 50%;
+  }
 
+  .info-project-virtual iframe {
+    height: 480px;
+  }
+}
 
-@media screen and (max-width: 375px) {
-  .info-project-details{
+@media screen and (max-width: 768px) {
+  .info-project-details {
     flex-direction: column;
     gap: 20px;
     padding-top: 41px;
     padding-bottom: 38px;
   }
+
+  .info-project-details__title {
+    align-self: flex-start;
+  }
+
+  .info-project-virtual iframe {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .info-project-details {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 41px;
+    padding-bottom: 38px;
+  }
+
+  .info-project-details__title {
+    align-self: flex-start;
+  }
+
   .info-project-details__title h2 {
     font-size: var(--mobile-font-size-title);
     line-height: var(--mobile-font-height-title);
     letter-spacing: normal;
   }
-  .info-project-rooms h3{
+
+  .info-project-rooms h3 {
     font-size: var(--medium-font-size);
     line-height: var(--mobile-font-size-title);
     padding: 8px 0px;
   }
-  .info-project-details__text p{
+
+  .info-project-details__text p {
     letter-spacing: normal;
   }
-  .planning_before p, 
-  .planning_after p{
+
+  .planning_before p,
+  .planning_after p {
     font-size: var(--normal-font-size);
     letter-spacing: normal;
     line-height: normal;
   }
-  .info-project-planning{
+
+  .info-project-planning {
     flex-direction: column;
     padding-top: 38px;
     padding-bottom: 28px;
   }
-  .info-project-virtual iframe{
+
+  .info-project-virtual iframe {
+    height: 320px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .info-project-details {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 41px;
+    padding-bottom: 38px;
+  }
+
+  .info-project-details__title {
+    align-self: flex-start;
+  }
+
+  .info-project-details__title h2 {
+    font-size: var(--mobile-font-size-title);
+    line-height: var(--mobile-font-height-title);
+    letter-spacing: normal;
+  }
+
+  .info-project-rooms h3 {
+    font-size: var(--medium-font-size);
+    line-height: var(--mobile-font-size-title);
+    padding: 8px 0px;
+  }
+
+  .info-project-details__text p {
+    letter-spacing: normal;
+  }
+
+  .planning_before p,
+  .planning_after p {
+    font-size: var(--normal-font-size);
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .info-project-planning {
+    flex-direction: column;
+    padding-top: 38px;
+    padding-bottom: 28px;
+  }
+
+  .info-project-virtual iframe {
     height: 320px;
   }
 }
 
 @media screen and (max-width : 320px) {
-  .info-project-details{
+  .info-project-details {
     flex-direction: column;
     gap: 20px;
     padding-top: 41px;
     padding-bottom: 38px;
   }
+
+  .info-project-details__title {
+    align-self: flex-start;
+  }
+
   .info-project-details__title h2 {
     font-size: var(--mobile-font-size-title);
     line-height: var(--mobile-font-height-title);
     letter-spacing: normal;
   }
-  .info-project-rooms h3{
+
+  .info-project-rooms h3 {
     font-size: var(--medium-font-size);
     line-height: var(--mobile-font-size-title);
     padding: 8px 0px;
   }
-  .info-project-details__text p{
+
+  .info-project-details__text p {
     letter-spacing: normal;
   }
-  .planning_before p, 
-  .planning_after p{
+
+  .planning_before p,
+  .planning_after p {
     font-size: var(--normal-font-size);
     letter-spacing: normal;
     line-height: normal;
   }
-  .info-project-planning{
+
+  .info-project-planning {
     flex-direction: column;
     padding-top: 38px;
     padding-bottom: 28px;
   }
-  .info-project-virtual iframe{
+
+  .info-project-virtual iframe {
     height: 320px;
   }
 }

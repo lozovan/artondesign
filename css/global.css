@@ -54,6 +54,7 @@ html {
 
 body {
     padding-top: 65px; /* Висота меню */
+    overflow-x: hidden;
 }
 
 .container {
