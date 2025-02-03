@@ -7,13 +7,13 @@ accordionHeaders.forEach(header => {
         header.classList.toggle('active');
 
         if (content.style.maxHeight) {
-            content.style.maxHeight = null; 
+            content.style.maxHeight = null;
         } else {
             document.querySelectorAll('.accordion-content').forEach(item => {
                 item.style.maxHeight = null;
-                item.previousElementSibling.classList.remove('active'); 
+                item.previousElementSibling.classList.remove('active');
             });
-            content.style.maxHeight = content.scrollHeight + 'px'; 
+            content.style.maxHeight = content.scrollHeight + 'px';
         }
     });
 });

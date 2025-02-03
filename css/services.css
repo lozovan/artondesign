@@ -1,11 +1,13 @@
-.services__info{
+.services__info {
     background-color: var(--main-background-color);
     display: flex;
     align-items: center;
 }
-.services__info-title{
-    position: absolute; 
+
+.services__info-title {
+    position: absolute;
 }
+
 .services__info-title h2 {
     color: var(--main-text-color);
     font-family: var(--main-font-family);
@@ -26,39 +28,41 @@
     text-transform: uppercase;
 }
 
-.services__info-package{
+.services__info-package {
     background-color: var(--main-background-color);
     padding-top: 10px;
     padding-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .services__info img{
+    .services__info img {
         height: 250px;
         object-fit: cover;
-        object-position: 50% 50%;  
+        object-position: 50% 50%;
     }
 }
+
 @media screen and (max-width: 425px) {
-    .services__info img{
+    .services__info img {
         height: 250px;
         object-fit: cover;
-        object-position: 50% 50%;  
+        object-position: 50% 50%;
     }
 }
 
 
 @media screen and (max-width: 375px) {
-    .services__info img{
+    .services__info img {
         height: 200px;
         object-fit: cover;
-        object-position: 50% 50%;  
+        object-position: 50% 50%;
     }
+
     .services__info-title h2 {
         font-size: var(--mobile-font-size-title);
-        line-height: var(--mobile-font-height-title);  
+        line-height: var(--mobile-font-height-title);
     }
-    
+
     .services__info-title h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
@@ -66,16 +70,17 @@
 }
 
 @media screen and (max-width : 320px) {
-    .services__info img{
+    .services__info img {
         height: 200px;
         object-fit: cover;
-        object-position: 50% 50%;  
+        object-position: 50% 50%;
     }
+
     .services__info-title h2 {
         font-size: var(--mobile-font-size-title);
-        line-height: var(--mobile-font-height-title);  
+        line-height: var(--mobile-font-height-title);
     }
-    
+
     .services__info-title h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);

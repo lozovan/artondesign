@@ -120,12 +120,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-    /* .slide_show img {
-        height: 650px;
-        object-fit: cover;
-        object-position: 50% 50%;
-    } */
     .slide_show {
         height: 90vh;
     }
@@ -144,12 +138,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
-    /* .slide_show img {
-        height: 650px;
-        object-fit: cover;
-        object-position: 50% 50%;
-    } */
     .slide_show {
         height: 88vh;
     }

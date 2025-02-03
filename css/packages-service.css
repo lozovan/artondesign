@@ -97,20 +97,22 @@
     cursor: pointer;
 }
 
-@media (min-width: 1600px) and (max-width: 1920px)  {
+@media (min-width: 1600px) and (max-width: 1920px) {
     .packages-service__details a {
         padding: 2% 12.5%;
-    }  
+    }
 }
 
-@media (min-width: 1281px) and (max-width: 1440px)  {
+@media (min-width: 1281px) and (max-width: 1440px) {
     .packages-service__details {
         gap: 10px;
     }
+
     .packages-service-main__info p {
         font-size: var(--mobile-small-size);
         letter-spacing: 0;
     }
+
     .packages-service__details a {
         padding: 2% 7.5%;
     }
@@ -121,22 +123,26 @@
         font-size: var(--mobile-small-size);
         letter-spacing: 0;
     }
+
     .packages-service__details a {
         padding: 2% 5%;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px)  {
-    .packages-service__main{
+@media (min-width: 769px) and (max-width: 1024px) {
+    .packages-service__main {
         display: block;
     }
+
     .packages-service__details {
         gap: 10px;
     }
+
     .packages-service-main__info p {
         font-size: var(--mobile-small-size);
         letter-spacing: 0;
     }
+
     .packages-service__details a {
         padding: 1.5% 17%;
     }
@@ -150,6 +156,7 @@
     .packages-service__details {
         gap: 10px;
     }
+
     .packages-service__details a {
         padding: 1% 15.5%;
     }
@@ -157,17 +164,19 @@
 
 /* Для ще більших екранів (від 420px) */
 @media screen and (max-width: 425px) {
-    .packages-service-main__info p{
+    .packages-service-main__info p {
         letter-spacing: 0;
     }
+
     .packages-service__details {
         gap: 10px;
     }
+
     .packages-service__details a {
         padding: 2% 10%;
         font-size: var(--mobile-small-size);
     }
-    
+
 }
 
 /* Для ширших екранів (від 375px) */
@@ -181,12 +190,15 @@
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
     }
-    .packages-service-main__info p{
+
+    .packages-service-main__info p {
         letter-spacing: 0;
     }
+
     .packages-service__details {
         gap: 10px;
     }
+
     .packages-service__details a {
         padding: 2% 8%;
         font-size: var(--mobile-small-size);
@@ -206,10 +218,12 @@
     .packages-service-main__info {
         padding: 10px;
     }
-    .packages-service-main__info p{
+
+    .packages-service-main__info p {
         letter-spacing: 0;
 
     }
+
     .packages-service__details {
         gap: 10px;
     }
@@ -229,4 +243,3 @@
         font-size: var(--mobile-small-size);
     }
 }
-

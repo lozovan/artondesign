@@ -1,5 +1,5 @@
 $('.count').each(function () {
-    $(this).prop('Counter',0).animate({
+    $(this).prop('Counter', 0).animate({
         Counter: $(this).text()
     }, {
         duration: 4000,

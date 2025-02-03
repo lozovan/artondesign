@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Не вірна сторінка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body class="page_404">
+    <div class="section page_404_fon">
+        <header class="header_page_404">
+            <div class="our-story_logo-container">
+                <a href="https://artondesign.com.ua/"><img src="img/artondesign-logo.svg" alt="ARton"></a>
+            </div>
+        </header>
+        <h3>УПССС...</h3>
+        <div class="container page_404">
+            <div class="block_page_404">
+                <div class="name_404">
+                    <span>404</span>
+                </div>
+                <h2>ПОМИЛКА</h2>
+                <hr class="hr_404">
+                <p>сторінку, яку ви шукаєте, не знайдено</p>
+                <br>
+                <a class="button_404" href="https://artondesign.com.ua/">Повернутись</a>
+                <br>
+                <!-- <div class="social_media_404">
+                    <ul>
+                        <li><a href="https://www.instagram.com/arton.interior.design/"><i class="icon_inst"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/arton.design.studio/"><i class="icon_fac"></i></a></li>
+                        <li><a href="https://www.behance.net/designarton?tracking_source=search%7CARton"><i
+                                    class="icon_beh"></i></a></li>
+                        <li>
+                            <p class="inform"><a href="tel:+38(098)9908099">+38 (098) 990 80 99</a></p>
+                            <p class="inform"><a
+                                    href="mailto:arton.interior.design@gmail.com">arton.interior.design@gmail.com</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="client-communication__info social_media_404">
+                    <br>
+                    <a href="tel:+38(098)9908099">+38 (098) 990 80 99</a>
+                    <br>
+                    <br class="delete_mobile">
+                    <a href="mailto:arton.interior.design@gmail.com">arton.interior.design@gmail.com</a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

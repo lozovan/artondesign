@@ -108,6 +108,7 @@ ul.tabs li.active {
     ul.tabs {
         width: 30%;
     }
+
     ul.tabs li {
         cursor: pointer;
         margin: 0px 0px 5px 0px;
@@ -121,10 +122,12 @@ ul.tabs li.active {
         letter-spacing: 0.1rem;
         transition: all .3s ease;
     }
+
     .tab_container {
         width: 67.8%;
         height: 450px;
     }
+
     .tab_content p {
         font-family: var(--main-font-family);
         font-weight: var(--text-normal-font-weight);
@@ -140,6 +143,7 @@ ul.tabs li.active {
     ul.tabs {
         width: 30%;
     }
+
     ul.tabs li {
         cursor: pointer;
         margin: 0px 0px 5px 0px;
@@ -153,10 +157,12 @@ ul.tabs li.active {
         letter-spacing: 0.1rem;
         transition: all .3s ease;
     }
+
     .tab_container {
         width: 67.8%;
         height: 495px;
     }
+
     .tab_content p {
         font-family: var(--main-font-family);
         font-weight: var(--text-normal-font-weight);
@@ -210,23 +216,28 @@ ul.tabs li.active {
         height: auto;
     }
 }
+
 @media screen and (max-width: 425px) {
-    .stages-execution__title{
+    .stages-execution__title {
         gap: 0px;
     }
 }
+
 @media screen and (max-width: 375px) {
-    .stages-execution{
+    .stages-execution {
         padding-top: 40px;
-        padding-bottom: 40px; 
+        padding-bottom: 40px;
     }
-    .stages-execution__title{
+
+    .stages-execution__title {
         display: block;
         gap: 0px;
     }
-    .stages-execution__main{
-        padding-top: 30px;  
+
+    .stages-execution__main {
+        padding-top: 30px;
     }
+
     .stages-execution__title h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);
@@ -237,6 +248,7 @@ ul.tabs li.active {
         line-height: var(--mobile-font-height-title);
     }
 }
+
 @media screen and (max-width : 320px) {
     .stages-execution {
         padding-top: 40px;
@@ -246,9 +258,11 @@ ul.tabs li.active {
         display: block;
         padding-top: 20px;
     }
-    .stages-execution__title{
+
+    .stages-execution__title {
         gap: 0px;
     }
+
     .stages-execution__title h3 {
         font-size: var(--mobile-font-size-title);
         line-height: var(--mobile-font-height-title);

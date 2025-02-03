@@ -105,7 +105,7 @@
         gap: 10px;
     }
 }
-/* Для ширших екранів (від 375px) */
+
 @media screen and (max-width: 375px) {
     .questions-popular h3 {
         font-size: var(--mobile-font-size-title);
