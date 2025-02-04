@@ -460,6 +460,7 @@
 
     .packages__info-description-more-lists {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 0px;
     }
@@ -554,6 +555,7 @@
 
     .packages__info-description-more-lists {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 0px;
     }
@@ -649,6 +651,7 @@
 
     .packages__info-description-more-lists {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 0px;
     }
