@@ -1,13 +1,13 @@
 $(document).ready(function () {
     $('.contact-form').submit(function (event) {
         event.preventDefault();
-        if ($('#name').val() === '' || $('#phone').val() === '') {
+        if ($('#name').val() === '' || $('#email').val() === '' || $('#phone').val() === '') {
             return false;
         }
 
         $.ajax({
             type: "POST",
-            // url: "mail/communication-client.php", 
+            url: "mail/communication-client.php", 
             data: $(this).serialize()
         }).done(function () {
             $('.contact-form').find('input, textarea').val('');
